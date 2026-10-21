@@ -1,0 +1,66 @@
+[
+  {
+    "id": "M01",
+    "file": "shots/M01.webp",
+    "prototype": "prototypes/01-finish-configurator.html",
+    "title": "Finish configurator",
+    "viewport": "1440x900",
+    "caption": "Product with finish swatches, cushion switch and live price"
+  },
+  {
+    "id": "M02",
+    "file": "shots/M02.webp",
+    "prototype": "prototypes/02-frequency-response.html",
+    "title": "Frequency response",
+    "viewport": "1440x900",
+    "caption": "Illustrative curve vs Harman target, ANC and transparency toggles"
+  },
+  {
+    "id": "M03",
+    "file": "shots/M03.webp",
+    "prototype": "prototypes/03-hotspots.html",
+    "title": "Hotspots",
+    "viewport": "1440x900",
+    "caption": "Five keyboard-focusable pins with an open detail card"
+  },
+  {
+    "id": "M04",
+    "file": "shots/M04.webp",
+    "prototype": "prototypes/04-loading-and-performance.html",
+    "title": "Loading and performance",
+    "viewport": "1440x900",
+    "caption": "Byte-driven loader, skip intro, quality and reduce-motion popover, live FPS chip"
+  },
+  {
+    "id": "M05",
+    "file": "shots/M05.webp",
+    "prototype": "prototypes/05-case-study.html",
+    "title": "Case study",
+    "viewport": "1440x900",
+    "caption": "How we built Aura One: stack chips, three-step process, metrics left as placeholders"
+  },
+  {
+    "id": "M06",
+    "file": "shots/M06.webp",
+    "prototype": "prototypes/06-preorder-flow.html",
+    "title": "Pre-order drawer",
+    "viewport": "1440x900",
+    "caption": "Three-step pre-order drawer with order summary and consent"
+  },
+  {
+    "id": "M07",
+    "file": "shots/M07.webp",
+    "prototype": "prototypes/01-finish-configurator.html",
+    "title": "Finish configurator (mobile)",
+    "viewport": "390x844",
+    "caption": "Configurator at 390 px, stacked layout"
+  },
+  {
+    "id": "M08",
+    "file": "shots/M08.webp",
+    "prototype": "prototypes/06-preorder-flow.html",
+    "title": "Pre-order drawer (mobile)",
+    "viewport": "390x844",
+    "caption": "Pre-order drawer at 390 px, full-width sheet"
+  }
+]

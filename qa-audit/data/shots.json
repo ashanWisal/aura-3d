@@ -1,0 +1,1052 @@
+[
+ {
+  "id": "S001",
+  "group": "Loading",
+  "viewport": "desktop",
+  "caption": "desktop — preloader, ~0.5 s after navigation",
+  "file": "shots/S001.webp"
+ },
+ {
+  "id": "S002",
+  "group": "Loading",
+  "viewport": "desktop",
+  "caption": "desktop — first screen after preloader, cookie banner up",
+  "file": "shots/S002.webp"
+ },
+ {
+  "id": "S003",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 3% (chapter 01 start)",
+  "file": "shots/S003.webp"
+ },
+ {
+  "id": "S004",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 10% (chapter 01 midpoint)",
+  "file": "shots/S004.webp"
+ },
+ {
+  "id": "S005",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 18% (chapter 01 end)",
+  "file": "shots/S005.webp"
+ },
+ {
+  "id": "S006",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 23% (chapter 02 start)",
+  "file": "shots/S006.webp"
+ },
+ {
+  "id": "S007",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 30% (chapter 02 midpoint)",
+  "file": "shots/S007.webp"
+ },
+ {
+  "id": "S008",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 38% (chapter 02 end)",
+  "file": "shots/S008.webp"
+ },
+ {
+  "id": "S009",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 43% (chapter 03 start)",
+  "file": "shots/S009.webp"
+ },
+ {
+  "id": "S010",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 50% (chapter 03 midpoint)",
+  "file": "shots/S010.webp"
+ },
+ {
+  "id": "S011",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 58% (chapter 03 end)",
+  "file": "shots/S011.webp"
+ },
+ {
+  "id": "S012",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 62% (chapter 04 start (assembled))",
+  "file": "shots/S012.webp"
+ },
+ {
+  "id": "S013",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 68% (chapter 04 coming apart)",
+  "file": "shots/S013.webp"
+ },
+ {
+  "id": "S014",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 71% (chapter 04 fully apart)",
+  "file": "shots/S014.webp"
+ },
+ {
+  "id": "S015",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 75% (chapter 04 apart, callouts)",
+  "file": "shots/S015.webp"
+ },
+ {
+  "id": "S016",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 78% (chapter 04 end (reassembling))",
+  "file": "shots/S016.webp"
+ },
+ {
+  "id": "S017",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 83% (chapter 05 start)",
+  "file": "shots/S017.webp"
+ },
+ {
+  "id": "S018",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 90% (chapter 05 midpoint)",
+  "file": "shots/S018.webp"
+ },
+ {
+  "id": "S019",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "desktop",
+  "caption": "desktop — story progress 98% (chapter 05 end)",
+  "file": "shots/S019.webp"
+ },
+ {
+  "id": "S020",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "desktop",
+  "caption": "desktop — Finishes (colour picker + turntable), section top (section 886px tall)",
+  "file": "shots/S020.webp"
+ },
+ {
+  "id": "S021",
+  "group": "Sound features",
+  "viewport": "desktop",
+  "caption": "desktop — Sound features, section top (section 1340px tall)",
+  "file": "shots/S021.webp"
+ },
+ {
+  "id": "S022",
+  "group": "Sound features",
+  "viewport": "desktop",
+  "caption": "desktop — Sound features, section bottom",
+  "file": "shots/S022.webp"
+ },
+ {
+  "id": "S023",
+  "group": "Every day (moments ring)",
+  "viewport": "desktop",
+  "caption": "desktop — Every day (moments ring), section top (section 1253px tall)",
+  "file": "shots/S023.webp"
+ },
+ {
+  "id": "S024",
+  "group": "Every day (moments ring)",
+  "viewport": "desktop",
+  "caption": "desktop — Every day (moments ring), section bottom",
+  "file": "shots/S024.webp"
+ },
+ {
+  "id": "S025",
+  "group": "Specifications",
+  "viewport": "desktop",
+  "caption": "desktop — Specifications, section top (section 1101px tall)",
+  "file": "shots/S025.webp"
+ },
+ {
+  "id": "S026",
+  "group": "Reviews + press",
+  "viewport": "desktop",
+  "caption": "desktop — Reviews + press, section top (section 779px tall)",
+  "file": "shots/S026.webp"
+ },
+ {
+  "id": "S027",
+  "group": "Pre-order form",
+  "viewport": "desktop",
+  "caption": "desktop — Pre-order form, section top (section 777px tall)",
+  "file": "shots/S027.webp"
+ },
+ {
+  "id": "S028",
+  "group": "Footer",
+  "viewport": "desktop",
+  "caption": "desktop — Footer, section top (section 707px tall)",
+  "file": "shots/S028.webp"
+ },
+ {
+  "id": "S029",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "desktop",
+  "caption": "desktop — finish switched to Sand",
+  "file": "shots/S029.webp"
+ },
+ {
+  "id": "S030",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "desktop",
+  "caption": "desktop — finish switched to Midnight",
+  "file": "shots/S030.webp"
+ },
+ {
+  "id": "S031",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "desktop",
+  "caption": "desktop — turntable after a 260 px drag",
+  "file": "shots/S031.webp"
+ },
+ {
+  "id": "S032",
+  "group": "Hover & focus states",
+  "viewport": "desktop",
+  "caption": "desktop — swatch radio after keyboard ArrowRight (focus-visible ring)",
+  "file": "shots/S032.webp"
+ },
+ {
+  "id": "S033",
+  "group": "Hover & focus states",
+  "viewport": "desktop",
+  "caption": "desktop — moments ring, hover on \"Gaming\"",
+  "file": "shots/S033.webp"
+ },
+ {
+  "id": "S034",
+  "group": "Hover & focus states",
+  "viewport": "desktop",
+  "caption": "desktop — header, hover on \"Sound\" nav link",
+  "file": "shots/S034.webp"
+ },
+ {
+  "id": "S035",
+  "group": "Hover & focus states",
+  "viewport": "desktop",
+  "caption": "desktop — header, hover on Pre-order CTA",
+  "file": "shots/S035.webp"
+ },
+ {
+  "id": "S036",
+  "group": "Hover & focus states",
+  "viewport": "desktop",
+  "caption": "desktop — third Tab press from page top",
+  "file": "shots/S036.webp"
+ },
+ {
+  "id": "S037",
+  "group": "Pre-order form",
+  "viewport": "desktop",
+  "caption": "desktop — pre-order submitted empty (native validation bubble is not captured by screenshots)",
+  "file": "shots/S037.webp"
+ },
+ {
+  "id": "S038",
+  "group": "Pre-order form",
+  "viewport": "desktop",
+  "caption": "desktop — pre-order filled, email field focused",
+  "file": "shots/S038.webp"
+ },
+ {
+  "id": "S039",
+  "group": "Pre-order form",
+  "viewport": "desktop",
+  "caption": "desktop — pre-order after submit (POST /api/contact → 200)",
+  "file": "shots/S039.webp"
+ },
+ {
+  "id": "S040",
+  "group": "Loading",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — preloader, ~0.5 s after navigation",
+  "file": "shots/S040.webp"
+ },
+ {
+  "id": "S041",
+  "group": "Loading",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — first screen after preloader, cookie banner up",
+  "file": "shots/S041.webp"
+ },
+ {
+  "id": "S042",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 3% (chapter 01 start)",
+  "file": "shots/S042.webp"
+ },
+ {
+  "id": "S043",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 10% (chapter 01 midpoint)",
+  "file": "shots/S043.webp"
+ },
+ {
+  "id": "S044",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 18% (chapter 01 end)",
+  "file": "shots/S044.webp"
+ },
+ {
+  "id": "S045",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 23% (chapter 02 start)",
+  "file": "shots/S045.webp"
+ },
+ {
+  "id": "S046",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 30% (chapter 02 midpoint)",
+  "file": "shots/S046.webp"
+ },
+ {
+  "id": "S047",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 38% (chapter 02 end)",
+  "file": "shots/S047.webp"
+ },
+ {
+  "id": "S048",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 43% (chapter 03 start)",
+  "file": "shots/S048.webp"
+ },
+ {
+  "id": "S049",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 50% (chapter 03 midpoint)",
+  "file": "shots/S049.webp"
+ },
+ {
+  "id": "S050",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 58% (chapter 03 end)",
+  "file": "shots/S050.webp"
+ },
+ {
+  "id": "S051",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 62% (chapter 04 start (assembled))",
+  "file": "shots/S051.webp"
+ },
+ {
+  "id": "S052",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 68% (chapter 04 coming apart)",
+  "file": "shots/S052.webp"
+ },
+ {
+  "id": "S053",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 71% (chapter 04 fully apart)",
+  "file": "shots/S053.webp"
+ },
+ {
+  "id": "S054",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 75% (chapter 04 apart, callouts)",
+  "file": "shots/S054.webp"
+ },
+ {
+  "id": "S055",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 78% (chapter 04 end (reassembling))",
+  "file": "shots/S055.webp"
+ },
+ {
+  "id": "S056",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 83% (chapter 05 start)",
+  "file": "shots/S056.webp"
+ },
+ {
+  "id": "S057",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 90% (chapter 05 midpoint)",
+  "file": "shots/S057.webp"
+ },
+ {
+  "id": "S058",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — story progress 98% (chapter 05 end)",
+  "file": "shots/S058.webp"
+ },
+ {
+  "id": "S059",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Finishes (colour picker + turntable), section top (section 794px tall)",
+  "file": "shots/S059.webp"
+ },
+ {
+  "id": "S060",
+  "group": "Sound features",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Sound features, section top (section 1410px tall)",
+  "file": "shots/S060.webp"
+ },
+ {
+  "id": "S061",
+  "group": "Sound features",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Sound features, section bottom",
+  "file": "shots/S061.webp"
+ },
+ {
+  "id": "S062",
+  "group": "Every day (moments ring)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Every day (moments ring), section top (section 1159px tall)",
+  "file": "shots/S062.webp"
+ },
+ {
+  "id": "S063",
+  "group": "Every day (moments ring)",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Every day (moments ring), section bottom",
+  "file": "shots/S063.webp"
+ },
+ {
+  "id": "S064",
+  "group": "Specifications",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Specifications, section top (section 1161px tall)",
+  "file": "shots/S064.webp"
+ },
+ {
+  "id": "S065",
+  "group": "Specifications",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Specifications, section bottom",
+  "file": "shots/S065.webp"
+ },
+ {
+  "id": "S066",
+  "group": "Reviews + press",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Reviews + press, section top (section 869px tall)",
+  "file": "shots/S066.webp"
+ },
+ {
+  "id": "S067",
+  "group": "Pre-order form",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Pre-order form, section top (section 807px tall)",
+  "file": "shots/S067.webp"
+ },
+ {
+  "id": "S068",
+  "group": "Footer",
+  "viewport": "tablet-landscape",
+  "caption": "tablet-landscape — Footer, section top (section 737px tall)",
+  "file": "shots/S068.webp"
+ },
+ {
+  "id": "S069",
+  "group": "Loading",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — preloader, ~0.5 s after navigation",
+  "file": "shots/S069.webp"
+ },
+ {
+  "id": "S070",
+  "group": "Loading",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — first screen after preloader, cookie banner up",
+  "file": "shots/S070.webp"
+ },
+ {
+  "id": "S071",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 3% (chapter 01 start)",
+  "file": "shots/S071.webp"
+ },
+ {
+  "id": "S072",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 10% (chapter 01 midpoint)",
+  "file": "shots/S072.webp"
+ },
+ {
+  "id": "S073",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 18% (chapter 01 end)",
+  "file": "shots/S073.webp"
+ },
+ {
+  "id": "S074",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 23% (chapter 02 start)",
+  "file": "shots/S074.webp"
+ },
+ {
+  "id": "S075",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 30% (chapter 02 midpoint)",
+  "file": "shots/S075.webp"
+ },
+ {
+  "id": "S076",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 38% (chapter 02 end)",
+  "file": "shots/S076.webp"
+ },
+ {
+  "id": "S077",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 43% (chapter 03 start)",
+  "file": "shots/S077.webp"
+ },
+ {
+  "id": "S078",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 50% (chapter 03 midpoint)",
+  "file": "shots/S078.webp"
+ },
+ {
+  "id": "S079",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 58% (chapter 03 end)",
+  "file": "shots/S079.webp"
+ },
+ {
+  "id": "S080",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 62% (chapter 04 start (assembled))",
+  "file": "shots/S080.webp"
+ },
+ {
+  "id": "S081",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 68% (chapter 04 coming apart)",
+  "file": "shots/S081.webp"
+ },
+ {
+  "id": "S082",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 71% (chapter 04 fully apart)",
+  "file": "shots/S082.webp"
+ },
+ {
+  "id": "S083",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 75% (chapter 04 apart, callouts)",
+  "file": "shots/S083.webp"
+ },
+ {
+  "id": "S084",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 78% (chapter 04 end (reassembling))",
+  "file": "shots/S084.webp"
+ },
+ {
+  "id": "S085",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 83% (chapter 05 start)",
+  "file": "shots/S085.webp"
+ },
+ {
+  "id": "S086",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 90% (chapter 05 midpoint)",
+  "file": "shots/S086.webp"
+ },
+ {
+  "id": "S087",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — story progress 98% (chapter 05 end)",
+  "file": "shots/S087.webp"
+ },
+ {
+  "id": "S088",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Finishes (colour picker + turntable), section top (section 1231px tall)",
+  "file": "shots/S088.webp"
+ },
+ {
+  "id": "S089",
+  "group": "Sound features",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Sound features, section top (section 1782px tall)",
+  "file": "shots/S089.webp"
+ },
+ {
+  "id": "S090",
+  "group": "Sound features",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Sound features, section bottom",
+  "file": "shots/S090.webp"
+ },
+ {
+  "id": "S091",
+  "group": "Every day (moments ring)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Every day (moments ring), section top (section 1498px tall)",
+  "file": "shots/S091.webp"
+ },
+ {
+  "id": "S092",
+  "group": "Every day (moments ring)",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Every day (moments ring), section bottom",
+  "file": "shots/S092.webp"
+ },
+ {
+  "id": "S093",
+  "group": "Specifications",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Specifications, section top (section 1766px tall)",
+  "file": "shots/S093.webp"
+ },
+ {
+  "id": "S094",
+  "group": "Specifications",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Specifications, section bottom",
+  "file": "shots/S094.webp"
+ },
+ {
+  "id": "S095",
+  "group": "Reviews + press",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Reviews + press, section top (section 1447px tall)",
+  "file": "shots/S095.webp"
+ },
+ {
+  "id": "S096",
+  "group": "Reviews + press",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Reviews + press, section bottom",
+  "file": "shots/S096.webp"
+ },
+ {
+  "id": "S097",
+  "group": "Pre-order form",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Pre-order form, section top (section 1369px tall)",
+  "file": "shots/S097.webp"
+ },
+ {
+  "id": "S098",
+  "group": "Footer",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — Footer, section top (section 747px tall)",
+  "file": "shots/S098.webp"
+ },
+ {
+  "id": "S099",
+  "group": "Loading",
+  "viewport": "mobile",
+  "caption": "mobile — preloader, ~0.5 s after navigation",
+  "file": "shots/S099.webp"
+ },
+ {
+  "id": "S100",
+  "group": "Loading",
+  "viewport": "mobile",
+  "caption": "mobile — first screen after preloader, cookie banner up",
+  "file": "shots/S100.webp"
+ },
+ {
+  "id": "S101",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 3% (chapter 01 start)",
+  "file": "shots/S101.webp"
+ },
+ {
+  "id": "S102",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 10% (chapter 01 midpoint)",
+  "file": "shots/S102.webp"
+ },
+ {
+  "id": "S103",
+  "group": "Story 01 — Hero \"Silence, made by hand.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 18% (chapter 01 end)",
+  "file": "shots/S103.webp"
+ },
+ {
+  "id": "S104",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 23% (chapter 02 start)",
+  "file": "shots/S104.webp"
+ },
+ {
+  "id": "S105",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 30% (chapter 02 midpoint)",
+  "file": "shots/S105.webp"
+ },
+ {
+  "id": "S106",
+  "group": "Story 02 — Frame \"Every angle considered.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 38% (chapter 02 end)",
+  "file": "shots/S106.webp"
+ },
+ {
+  "id": "S107",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 43% (chapter 03 start)",
+  "file": "shots/S107.webp"
+ },
+ {
+  "id": "S108",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 50% (chapter 03 midpoint)",
+  "file": "shots/S108.webp"
+ },
+ {
+  "id": "S109",
+  "group": "Story 03 — Materials \"Close enough to touch.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 58% (chapter 03 end)",
+  "file": "shots/S109.webp"
+ },
+ {
+  "id": "S110",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 62% (chapter 04 start (assembled))",
+  "file": "shots/S110.webp"
+ },
+ {
+  "id": "S111",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 68% (chapter 04 coming apart)",
+  "file": "shots/S111.webp"
+ },
+ {
+  "id": "S112",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 71% (chapter 04 fully apart)",
+  "file": "shots/S112.webp"
+ },
+ {
+  "id": "S113",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 75% (chapter 04 apart, callouts)",
+  "file": "shots/S113.webp"
+ },
+ {
+  "id": "S114",
+  "group": "Story 04 — Inside \"Forty parts.\" (explode)",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 78% (chapter 04 end (reassembling))",
+  "file": "shots/S114.webp"
+ },
+ {
+  "id": "S115",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 83% (chapter 05 start)",
+  "file": "shots/S115.webp"
+ },
+ {
+  "id": "S116",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 90% (chapter 05 midpoint)",
+  "file": "shots/S116.webp"
+ },
+ {
+  "id": "S117",
+  "group": "Story 05 — Together \"Back together.\"",
+  "viewport": "mobile",
+  "caption": "mobile — story progress 98% (chapter 05 end)",
+  "file": "shots/S117.webp"
+ },
+ {
+  "id": "S118",
+  "group": "Finishes (colour picker + turntable)",
+  "viewport": "mobile",
+  "caption": "mobile — Finishes (colour picker + turntable), section top (section 996px tall)",
+  "file": "shots/S118.webp"
+ },
+ {
+  "id": "S119",
+  "group": "Sound features",
+  "viewport": "mobile",
+  "caption": "mobile — Sound features, section top (section 1474px tall)",
+  "file": "shots/S119.webp"
+ },
+ {
+  "id": "S120",
+  "group": "Sound features",
+  "viewport": "mobile",
+  "caption": "mobile — Sound features, section bottom",
+  "file": "shots/S120.webp"
+ },
+ {
+  "id": "S121",
+  "group": "Every day (moments ring)",
+  "viewport": "mobile",
+  "caption": "mobile — Every day (moments ring), section top (section 1233px tall)",
+  "file": "shots/S121.webp"
+ },
+ {
+  "id": "S122",
+  "group": "Every day (moments ring)",
+  "viewport": "mobile",
+  "caption": "mobile — Every day (moments ring), section bottom",
+  "file": "shots/S122.webp"
+ },
+ {
+  "id": "S123",
+  "group": "Specifications",
+  "viewport": "mobile",
+  "caption": "mobile — Specifications, section top (section 1805px tall)",
+  "file": "shots/S123.webp"
+ },
+ {
+  "id": "S124",
+  "group": "Specifications",
+  "viewport": "mobile",
+  "caption": "mobile — Specifications, section bottom",
+  "file": "shots/S124.webp"
+ },
+ {
+  "id": "S125",
+  "group": "Reviews + press",
+  "viewport": "mobile",
+  "caption": "mobile — Reviews + press, section top (section 1283px tall)",
+  "file": "shots/S125.webp"
+ },
+ {
+  "id": "S126",
+  "group": "Reviews + press",
+  "viewport": "mobile",
+  "caption": "mobile — Reviews + press, section bottom",
+  "file": "shots/S126.webp"
+ },
+ {
+  "id": "S127",
+  "group": "Pre-order form",
+  "viewport": "mobile",
+  "caption": "mobile — Pre-order form, section top (section 1150px tall)",
+  "file": "shots/S127.webp"
+ },
+ {
+  "id": "S128",
+  "group": "Pre-order form",
+  "viewport": "mobile",
+  "caption": "mobile — Pre-order form, section bottom",
+  "file": "shots/S128.webp"
+ },
+ {
+  "id": "S129",
+  "group": "Footer",
+  "viewport": "mobile",
+  "caption": "mobile — Footer, section top (section 695px tall)",
+  "file": "shots/S129.webp"
+ },
+ {
+  "id": "S130",
+  "group": "Reduced motion",
+  "viewport": "desktop",
+  "caption": "desktop, reduced motion — page top after load",
+  "file": "shots/S130.webp"
+ },
+ {
+  "id": "S131",
+  "group": "Reduced motion",
+  "viewport": "desktop",
+  "caption": "desktop, reduced motion — story progress 70% (explode)",
+  "file": "shots/S131.webp"
+ },
+ {
+  "id": "S132",
+  "group": "Reduced motion",
+  "viewport": "desktop",
+  "caption": "desktop, reduced motion — #finishes",
+  "file": "shots/S132.webp"
+ },
+ {
+  "id": "S133",
+  "group": "WebGL disabled",
+  "viewport": "desktop",
+  "caption": "desktop — WebGL disabled, page top after ~8 s",
+  "file": "shots/S133.webp"
+ },
+ {
+  "id": "S134",
+  "group": "WebGL disabled",
+  "viewport": "mobile",
+  "caption": "mobile — WebGL disabled, page top after ~8 s",
+  "file": "shots/S134.webp"
+ },
+ {
+  "id": "S135",
+  "group": "JavaScript disabled",
+  "viewport": "desktop",
+  "caption": "desktop, JavaScript disabled — page top",
+  "file": "shots/S135.webp"
+ },
+ {
+  "id": "S136",
+  "group": "Robot view (crawler UA)",
+  "viewport": "desktop",
+  "caption": "desktop, Googlebot UA — robot view, page top",
+  "file": "shots/S136.webp"
+ },
+ {
+  "id": "S137",
+  "group": "Cookie consent",
+  "viewport": "desktop",
+  "caption": "desktop, fresh visit — cookie banner",
+  "file": "shots/S137.webp"
+ },
+ {
+  "id": "S138",
+  "group": "Cookie consent",
+  "viewport": "desktop",
+  "caption": "desktop — Manage preferences modal open",
+  "file": "shots/S138.webp"
+ },
+ {
+  "id": "S139",
+  "group": "Cookie consent",
+  "viewport": "desktop",
+  "caption": "desktop — modal after 3 Tab presses (focus check)",
+  "file": "shots/S139.webp"
+ },
+ {
+  "id": "S140",
+  "group": "404 page",
+  "viewport": "desktop",
+  "caption": "desktop — /this-page-does-not-exist (HTTP 404)",
+  "file": "shots/S140.webp"
+ },
+ {
+  "id": "S141",
+  "group": "404 page",
+  "viewport": "mobile",
+  "caption": "mobile — /this-page-does-not-exist (HTTP 404)",
+  "file": "shots/S141.webp"
+ },
+ {
+  "id": "S142",
+  "group": "Privacy policy",
+  "viewport": "desktop",
+  "caption": "desktop — /privacy-policy top (HTTP 200)",
+  "file": "shots/S142.webp"
+ },
+ {
+  "id": "S143",
+  "group": "Privacy policy",
+  "viewport": "mobile",
+  "caption": "mobile — /privacy-policy top (HTTP 200)",
+  "file": "shots/S143.webp"
+ },
+ {
+  "id": "S144",
+  "group": "Header & nav",
+  "viewport": "mobile",
+  "caption": "mobile — page top, header nav/menu check",
+  "file": "shots/S144.webp"
+ },
+ {
+  "id": "S145",
+  "group": "Header & nav",
+  "viewport": "tablet-portrait",
+  "caption": "tablet-portrait — page top, header nav/menu check",
+  "file": "shots/S145.webp"
+ },
+ {
+  "id": "S147",
+  "group": "Live clock",
+  "viewport": "desktop",
+  "caption": "desktop — header clock at page top (read twice, 3 s apart)",
+  "file": "shots/S147.webp"
+ },
+ {
+  "id": "S148",
+  "group": "WebGL context loss",
+  "viewport": "desktop",
+  "caption": "desktop — story top, 2 s after WEBGL_lose_context.loseContext()",
+  "file": "shots/S148.webp"
+ },
+ {
+  "id": "S149",
+  "group": "WebGL context loss",
+  "viewport": "desktop",
+  "caption": "desktop — story canvas 4 s after restoreContext() (model back)",
+  "file": "shots/S149.webp"
+ },
+ {
+  "id": "S150",
+  "group": "Accessibility",
+  "viewport": "desktop",
+  "caption": "desktop — focus ring on header Pre-order CTA (2 px gold outline, 4 px offset)",
+  "file": "shots/S150.webp"
+ },
+ {
+  "id": "S151",
+  "group": "Accessibility",
+  "viewport": "desktop",
+  "caption": "desktop — focus state on moments \"Commute\" button",
+  "file": "shots/S151.webp"
+ }
+]

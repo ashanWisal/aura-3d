@@ -1,0 +1,44 @@
+{
+  "gpu": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+    "vendor": "Google Inc. (Intel)"
+  },
+  "canvasCountBeforeLoss": 3,
+  "preLossWindow": {
+    "frames": 27,
+    "drawsPerFrame": 51,
+    "trisPerFrame": 64659,
+    "drawsDelta": 1377,
+    "trisDelta": 1745793,
+    "lost": 0,
+    "contexts": 3
+  },
+  "afterLoseContext2s": {
+    "isContextLost": true,
+    "lostCounter": 1,
+    "draws": 6186
+  },
+  "afterRestore4s": {
+    "isContextLost": false,
+    "lostCounter": 1,
+    "contexts": 3,
+    "draws": 7737
+  },
+  "postRestoreWindow": {
+    "frames": 18,
+    "drawsPerFrame": 51,
+    "trisPerFrame": 64659,
+    "drawsDelta": 918,
+    "trisDelta": 1163862,
+    "lost": 1,
+    "contexts": 3
+  },
+  "modelCameBack": true,
+  "errors": [],
+  "shots": [
+    "S148",
+    "S149"
+  ],
+  "runAt": "2026-10-21T17:32:01.940Z"
+}

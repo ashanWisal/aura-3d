@@ -1,0 +1,543 @@
+{
+  "measuredAt": "2026-10-21T17:04:06.835Z",
+  "note": "Sizes computed from the files on disk (public/, .next/static) and from the bytes served by next start on :3456 for route assets. gzip = zlib default level 6 (same as gzip -c).",
+  "publicFiles": {
+    "count": 18,
+    "totalRaw": 1151379,
+    "totalGzip": 973092,
+    "top10": [
+      {
+        "file": "public/assets/models/aura-one.glb",
+        "raw": 723500,
+        "gzip": 547251
+      },
+      {
+        "file": "public/open-graph.png",
+        "raw": 346939,
+        "gzip": 347051
+      },
+      {
+        "file": "public/android-icon-512x512.png",
+        "raw": 17456,
+        "gzip": 16412
+      },
+      {
+        "file": "public/ms-icon-310x310.png",
+        "raw": 11792,
+        "gzip": 11438
+      },
+      {
+        "file": "public/android-icon-192x192.png",
+        "raw": 7966,
+        "gzip": 7853
+      },
+      {
+        "file": "public/apple-icon-180x180.png",
+        "raw": 7168,
+        "gzip": 7085
+      },
+      {
+        "file": "public/ms-icon-150x150.png",
+        "raw": 6496,
+        "gzip": 6482
+      },
+      {
+        "file": "public/android-icon-144x144.png",
+        "raw": 6146,
+        "gzip": 6136
+      },
+      {
+        "file": "public/favicon.ico",
+        "raw": 5377,
+        "gzip": 5372
+      },
+      {
+        "file": "public/android-icon-96x96.png",
+        "raw": 4184,
+        "gzip": 4204
+      }
+    ],
+    "all": [
+      {
+        "file": "public/assets/models/aura-one.glb",
+        "raw": 723500,
+        "gzip": 547251
+      },
+      {
+        "file": "public/open-graph.png",
+        "raw": 346939,
+        "gzip": 347051
+      },
+      {
+        "file": "public/android-icon-512x512.png",
+        "raw": 17456,
+        "gzip": 16412
+      },
+      {
+        "file": "public/ms-icon-310x310.png",
+        "raw": 11792,
+        "gzip": 11438
+      },
+      {
+        "file": "public/android-icon-192x192.png",
+        "raw": 7966,
+        "gzip": 7853
+      },
+      {
+        "file": "public/apple-icon-180x180.png",
+        "raw": 7168,
+        "gzip": 7085
+      },
+      {
+        "file": "public/ms-icon-150x150.png",
+        "raw": 6496,
+        "gzip": 6482
+      },
+      {
+        "file": "public/android-icon-144x144.png",
+        "raw": 6146,
+        "gzip": 6136
+      },
+      {
+        "file": "public/favicon.ico",
+        "raw": 5377,
+        "gzip": 5372
+      },
+      {
+        "file": "public/android-icon-96x96.png",
+        "raw": 4184,
+        "gzip": 4204
+      },
+      {
+        "file": "public/android-icon-72x72.png",
+        "raw": 3292,
+        "gzip": 3315
+      },
+      {
+        "file": "public/ms-icon-70x70.png",
+        "raw": 3109,
+        "gzip": 3132
+      },
+      {
+        "file": "public/android-icon-48x48.png",
+        "raw": 2573,
+        "gzip": 2596
+      },
+      {
+        "file": "public/android-icon-36x36.png",
+        "raw": 1852,
+        "gzip": 1875
+      },
+      {
+        "file": "public/favicon-32x32.png",
+        "raw": 1655,
+        "gzip": 1678
+      },
+      {
+        "file": "public/manifest.json",
+        "raw": 912,
+        "gzip": 331
+      },
+      {
+        "file": "public/favicon-16x16.png",
+        "raw": 680,
+        "gzip": 703
+      },
+      {
+        "file": "public/browserconfig.xml",
+        "raw": 282,
+        "gzip": 178
+      }
+    ]
+  },
+  "nextStaticJsCss": {
+    "count": 17,
+    "totalRaw": 1905643,
+    "totalGzip": 544724,
+    "top10": [
+      {
+        "file": ".next/static/chunks/2feutdih1c-nr.js",
+        "raw": 1180702,
+        "gzip": 324478
+      },
+      {
+        "file": ".next/static/chunks/34wvn5zw0a69w.js",
+        "raw": 204596,
+        "gzip": 64619
+      },
+      {
+        "file": ".next/static/chunks/2gefo9ja1l2mo.js",
+        "raw": 165901,
+        "gzip": 45117
+      },
+      {
+        "file": ".next/static/chunks/0cz1d0mv5g_q7.js",
+        "raw": 112594,
+        "gzip": 39627
+      },
+      {
+        "file": ".next/static/chunks/0_k6h2yh506si.css",
+        "raw": 52508,
+        "gzip": 9435
+      },
+      {
+        "file": ".next/static/chunks/1skq0y0yjoygk.js",
+        "raw": 51137,
+        "gzip": 19865
+      },
+      {
+        "file": ".next/static/chunks/1g247_8urxy_8.js",
+        "raw": 30756,
+        "gzip": 9537
+      },
+      {
+        "file": ".next/static/chunks/19mx3mg6lkumu.js",
+        "raw": 28907,
+        "gzip": 7614
+      },
+      {
+        "file": ".next/static/chunks/0zn3m7-_32dg7.js",
+        "raw": 24674,
+        "gzip": 7359
+      },
+      {
+        "file": ".next/static/chunks/1mpnoxox0-4cg.js",
+        "raw": 23131,
+        "gzip": 6763
+      }
+    ]
+  },
+  "routes": {
+    "/": {
+      "httpStatus": 200,
+      "htmlRaw": 152069,
+      "htmlGzip": 20152,
+      "assetCount": 16,
+      "rawTotal": 1985325,
+      "gzipTotal": 635462,
+      "assets": [
+        {
+          "url": "/_next/static/chunks/2feutdih1c-nr.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 1180702,
+          "gzip": 324478
+        },
+        {
+          "url": "/_next/static/chunks/34wvn5zw0a69w.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 204596,
+          "gzip": 64619
+        },
+        {
+          "url": "/_next/static/chunks/2gefo9ja1l2mo.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 165901,
+          "gzip": 45117
+        },
+        {
+          "url": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 112594,
+          "gzip": 39627
+        },
+        {
+          "url": "/_next/static/chunks/0_k6h2yh506si.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "raw": 52508,
+          "gzip": 9435
+        },
+        {
+          "url": "/_next/static/chunks/1skq0y0yjoygk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 51137,
+          "gzip": 19865
+        },
+        {
+          "url": "/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 48432,
+          "gzip": 48442
+        },
+        {
+          "url": "/_next/static/media/051742360c26797e-s.p.1bkzbscqrt8rl.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 31340,
+          "gzip": 31368
+        },
+        {
+          "url": "/_next/static/chunks/1g247_8urxy_8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 30756,
+          "gzip": 9537
+        },
+        {
+          "url": "/_next/static/chunks/19mx3mg6lkumu.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 28907,
+          "gzip": 7614
+        },
+        {
+          "url": "/_next/static/chunks/0zn3m7-_32dg7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 24674,
+          "gzip": 7359
+        },
+        {
+          "url": "/_next/static/chunks/1mpnoxox0-4cg.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 23131,
+          "gzip": 6763
+        },
+        {
+          "url": "/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 15040,
+          "gzip": 15039
+        },
+        {
+          "url": "/_next/static/chunks/turbopack-2alwswgmf8jxk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 9685,
+          "gzip": 3846
+        },
+        {
+          "url": "/_next/static/chunks/310vm2bl3xxpt.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 5364,
+          "gzip": 1970
+        },
+        {
+          "url": "/_next/static/chunks/3tytcx_q4step.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 558,
+          "gzip": 383
+        }
+      ]
+    },
+    "/privacy-policy": {
+      "httpStatus": 200,
+      "htmlRaw": 25605,
+      "htmlGzip": 5306,
+      "assetCount": 15,
+      "rawTotal": 804623,
+      "gzipTotal": 310984,
+      "assets": [
+        {
+          "url": "/_next/static/chunks/34wvn5zw0a69w.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 204596,
+          "gzip": 64619
+        },
+        {
+          "url": "/_next/static/chunks/2gefo9ja1l2mo.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 165901,
+          "gzip": 45117
+        },
+        {
+          "url": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 112594,
+          "gzip": 39627
+        },
+        {
+          "url": "/_next/static/chunks/0_k6h2yh506si.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "raw": 52508,
+          "gzip": 9435
+        },
+        {
+          "url": "/_next/static/chunks/1skq0y0yjoygk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 51137,
+          "gzip": 19865
+        },
+        {
+          "url": "/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 48432,
+          "gzip": 48442
+        },
+        {
+          "url": "/_next/static/media/051742360c26797e-s.p.1bkzbscqrt8rl.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 31340,
+          "gzip": 31368
+        },
+        {
+          "url": "/_next/static/chunks/1g247_8urxy_8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 30756,
+          "gzip": 9537
+        },
+        {
+          "url": "/_next/static/chunks/19mx3mg6lkumu.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 28907,
+          "gzip": 7614
+        },
+        {
+          "url": "/_next/static/chunks/0zn3m7-_32dg7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 24674,
+          "gzip": 7359
+        },
+        {
+          "url": "/_next/static/chunks/1mpnoxox0-4cg.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 23131,
+          "gzip": 6763
+        },
+        {
+          "url": "/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "raw": 15040,
+          "gzip": 15039
+        },
+        {
+          "url": "/_next/static/chunks/turbopack-2alwswgmf8jxk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 9685,
+          "gzip": 3846
+        },
+        {
+          "url": "/_next/static/chunks/310vm2bl3xxpt.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 5364,
+          "gzip": 1970
+        },
+        {
+          "url": "/_next/static/chunks/3tytcx_q4step.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 558,
+          "gzip": 383
+        }
+      ]
+    },
+    "/this-page-does-not-exist": {
+      "httpStatus": 404,
+      "htmlRaw": 18628,
+      "htmlGzip": 3997,
+      "assetCount": 12,
+      "rawTotal": 709811,
+      "gzipTotal": 216135,
+      "assets": [
+        {
+          "url": "/_next/static/chunks/34wvn5zw0a69w.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 204596,
+          "gzip": 64619
+        },
+        {
+          "url": "/_next/static/chunks/2gefo9ja1l2mo.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 165901,
+          "gzip": 45117
+        },
+        {
+          "url": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 112594,
+          "gzip": 39627
+        },
+        {
+          "url": "/_next/static/chunks/0_k6h2yh506si.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8",
+          "raw": 52508,
+          "gzip": 9435
+        },
+        {
+          "url": "/_next/static/chunks/1skq0y0yjoygk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 51137,
+          "gzip": 19865
+        },
+        {
+          "url": "/_next/static/chunks/1g247_8urxy_8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 30756,
+          "gzip": 9537
+        },
+        {
+          "url": "/_next/static/chunks/19mx3mg6lkumu.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 28907,
+          "gzip": 7614
+        },
+        {
+          "url": "/_next/static/chunks/0zn3m7-_32dg7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 24674,
+          "gzip": 7359
+        },
+        {
+          "url": "/_next/static/chunks/1mpnoxox0-4cg.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 23131,
+          "gzip": 6763
+        },
+        {
+          "url": "/_next/static/chunks/turbopack-2alwswgmf8jxk.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 9685,
+          "gzip": 3846
+        },
+        {
+          "url": "/_next/static/chunks/310vm2bl3xxpt.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 5364,
+          "gzip": 1970
+        },
+        {
+          "url": "/_next/static/chunks/3tytcx_q4step.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8",
+          "raw": 558,
+          "gzip": 383
+        }
+      ]
+    }
+  }
+}

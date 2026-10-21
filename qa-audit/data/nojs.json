@@ -1,0 +1,9 @@
+{
+ "httpStatus": 200,
+ "bodyWordCount": 1305,
+ "wordCountMethod": "server HTML from page.content() (body tag, script/style/noscript stripped, tags removed); document.body.innerText is not available without JS",
+ "preloaderElementsInHtml": 1,
+ "preloaderVisible": false,
+ "noscriptHidesPreloaderInHtml": true,
+ "specsSectionInHtml": true
+}

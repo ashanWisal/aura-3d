@@ -1,0 +1,38 @@
+▲ Next.js 16.3.1 (Turbopack)
+⚠ Warning: Next.js ignored pnpm-lock.yaml in /home/ashan-wisal because it is outside the current Git repository (/home/ashan-wisal/company projects/3d websites/aura).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+✓ Running next.config.ts took 169ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.7s
+  Running TypeScript ...
+  Finished TypeScript in 15.3s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9) 
+  Generating static pages using 7 workers (4/9) 
+  Generating static pages using 7 workers (6/9) 
+✓ Generating static pages using 7 workers (9/9) in 2.8s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/contact
+├ ○ /privacy-policy
+├ ○ /robot-view
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+real	0m31.898s
+user	0m49.375s
+sys	0m7.195s
+EXIT 0

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aura One — Hotspots (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0a09;--surface:#151311;--raised:#221f1b;--cream:#ece5d8;--cream-75:rgba(236,229,216,.75);--cream-55:rgba(236,229,216,.55);--gold:#c9a35b;--line:rgba(236,229,216,.12);--line-strong:rgba(236,229,216,.22)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body{min-height:100vh;overflow-x:hidden}
+h1,h2{font-family:'Instrument Serif',serif;font-weight:400;letter-spacing:-.01em;line-height:1.05}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-55)}
+.badge{position:fixed;left:16px;bottom:16px;z-index:100;font:500 11px/1 'JetBrains Mono',monospace;letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border-radius:999px;background:#2a1f10;color:var(--gold);border:1px solid rgba(201,163,91,.4)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:24px 56px;border-bottom:1px solid var(--line)}
+.logo{font-family:'Instrument Serif',serif;font-size:24px}
+.bag{font-size:14px;border:1px solid var(--line-strong);border-radius:999px;padding:8px 16px}
+.grid{display:grid;grid-template-columns:1.25fr 1fr;min-height:calc(900px - 81px)}
+.stage{position:relative;display:flex;align-items:center;justify-content:center;padding:64px;background:radial-gradient(circle at 50% 45%,#2e2821 0%,#0b0a09 65%)}
+.frame{position:relative;width:min(560px,100%)}
+.phones{display:block;width:100%;height:auto;overflow:visible;--finish:#1b1a1e;--pad:#5b4a3a}
+.phones .shell{fill:var(--finish)}
+.phones .band{fill:none;stroke:var(--finish);stroke-width:22;stroke-linecap:round}
+.phones .pad{fill:var(--pad)}
+.phones .sheen{fill:none}
+.pin{position:absolute;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;background:var(--bg);border:1.5px solid var(--gold);color:var(--cream);font:500 14px/1 Inter,sans-serif;display:grid;place-items:center;transition:background .2s,color .2s,transform .2s;z-index:2}
+.pin:hover{transform:scale(1.08)}
+.pin[aria-expanded="true"]{background:var(--gold);color:var(--bg)}
+.pin:focus-visible{outline:2px solid var(--cream);outline-offset:4px}
+.pin::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid rgba(201,163,91,.35)}
+.panel{padding:72px 64px;display:flex;flex-direction:column;gap:28px;border-left:1px solid var(--line)}
+.panel h1{font-size:72px}
+.lede{color:var(--cream-75);max-width:44ch}
+.card{background:var(--raised);border:1px solid var(--line-strong);border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:14px;min-height:260px}
+.card .num{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--gold)}
+.card h2{font-size:40px}
+.card p{color:var(--cream-75);max-width:60ch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:20px;border-top:1px solid var(--line)}
+.next{height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--cream)}
+.next:hover{background:var(--surface)}
+.count{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-55)}
+.list{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.list button{font-size:14px;color:var(--cream-75);border:1px solid var(--line);border-radius:999px;padding:8px 14px}
+.list button[aria-current="true"]{color:var(--cream);border-color:rgba(201,163,91,.55)}
+@media (max-width:1100px){.panel h1{font-size:56px}}
+@media (max-width:820px){
+  .top{padding:18px 20px}
+  .grid{grid-template-columns:1fr;min-height:0}
+  .stage{padding:48px 20px 40px;min-height:420px}
+  .panel{padding:32px 20px 56px;border-left:0;border-top:1px solid var(--line);gap:20px}
+  .panel h1{font-size:44px}
+  .card{padding:22px;min-height:0}
+  .card h2{font-size:32px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="logo">Aura One</span>
+  <span class="bag">Bag (0)</span>
+</header>
+
+<main class="grid">
+  <section class="stage" aria-label="Product with hotspots">
+    <div class="frame" id="frame">
+      <svg class="phones" viewBox="0 0 400 320" role="img" aria-label="Placeholder headphone illustration, not a product render">
+        <defs>
+          <linearGradient id="bandSheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient>
+          <radialGradient id="cupSheen" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></radialGradient>
+        </defs>
+        <path class="band" d="M70 200 C70 50 330 50 330 200"/>
+        <path class="sheen" d="M70 200 C70 50 330 50 330 200" stroke="url(#bandSheen)" stroke-width="22" stroke-linecap="round"/>
+        <ellipse class="pad" cx="72" cy="218" rx="56" ry="68"/>
+        <ellipse class="pad" cx="328" cy="218" rx="56" ry="68"/>
+        <rect class="shell" x="30" y="166" width="84" height="104" rx="38"/>
+        <rect x="30" y="166" width="84" height="104" rx="38" fill="url(#cupSheen)"/>
+        <rect class="shell" x="286" y="166" width="84" height="104" rx="38"/>
+        <rect x="286" y="166" width="84" height="104" rx="38" fill="url(#cupSheen)"/>
+      </svg>
+      <!-- pins: positions are svg viewBox coordinates converted to percentages -->
+      <button class="pin" style="left:35%;top:32.5%" data-i="2" aria-expanded="false" aria-controls="card" aria-label="Hotspot 3: DSP board">3</button>
+      <button class="pin" style="left:18%;top:50%" data-i="4" aria-expanded="false" aria-controls="card" aria-label="Hotspot 5: Aluminium cap">5</button>
+      <button class="pin" style="left:18%;top:68.1%" data-i="3" aria-expanded="false" aria-controls="card" aria-label="Hotspot 4: 1200 mAh cell">4</button>
+      <button class="pin" style="left:82%;top:68.1%" data-i="1" aria-expanded="false" aria-controls="card" aria-label="Hotspot 2: 40 mm driver">2</button>
+      <button class="pin" style="left:82%;top:88.1%" data-i="0" aria-expanded="true" aria-controls="card" aria-label="Hotspot 1: Lambskin cushion">1</button>
+    </div>
+  </section>
+
+  <section class="panel" aria-label="Hotspot details">
+    <p class="eyebrow">04 — Inside</p>
+    <h1>Forty parts.<br>Five to know.</h1>
+    <p class="lede">Tap a number on the headphones to see what it does and why it is built that way.</p>
+
+    <article class="card" id="card" aria-live="polite">
+      <span class="num" id="c-num">01</span>
+      <h2 id="c-title">Lambskin cushion</h2>
+      <p id="c-desc">Memory-foam core in full-grain lambskin. Breathable, replaceable, and sized to sit lightly on the ear.</p>
+      <div class="foot">
+        <span class="count" id="c-count">1 of 5</span>
+        <button class="next" id="next">next →</button>
+      </div>
+    </article>
+
+    <ul class="list" aria-label="Jump to hotspot">
+      <li><button data-i="0" aria-current="true">Cushion</button></li>
+      <li><button data-i="1">Driver</button></li>
+      <li><button data-i="2">DSP</button></li>
+      <li><button data-i="3">Cell</button></li>
+      <li><button data-i="4">Cap</button></li>
+    </ul>
+  </section>
+</main>
+<span class="badge">MOCKUP — not implemented</span>
+
+<script>
+(() => {
+  const items = [
+    { t: 'Lambskin cushion', d: 'Memory-foam core in full-grain lambskin. Breathable, replaceable, and sized to sit lightly on the ear.' },
+    { t: '40 mm driver', d: 'A 40 mm dynamic driver with a neodymium magnet and a damped rear chamber for controlled low end.' },
+    { t: 'DSP board', d: 'A dedicated processor runs noise cancelling and the tuning, so the sound holds when the phone is off.' },
+    { t: '1200 mAh cell', d: 'One lithium-polymer cell sized for a full day of listening. Charges over USB-C while you play.' },
+    { t: 'Aluminium cap', d: 'A CNC-machined aluminium cap in the same finish as the shell. It hides the hinge and takes the wear.' },
+  ];
+  let open = 0;
+  const pins = [...document.querySelectorAll('.pin')];
+  const listBtns = [...document.querySelectorAll('.list button')];
+  const $ = id => document.getElementById(id);
+  const render = () => {
+    const it = items[open];
+    $('c-num').textContent = String(open + 1).padStart(2, '0');
+    $('c-title').textContent = it.t;
+    $('c-desc').textContent = it.d;
+    $('c-count').textContent = (open + 1) + ' of ' + items.length;
+    $('next').textContent = 'next →';
+    pins.forEach(p => p.setAttribute('aria-expanded', String(Number(p.dataset.i) === open)));
+    listBtns.forEach(b => b.setAttribute('aria-current', String(Number(b.dataset.i) === open)));
+  };
+  pins.forEach(p => p.addEventListener('click', () => { open = Number(p.dataset.i); render(); }));
+  listBtns.forEach(b => b.addEventListener('click', () => { open = Number(b.dataset.i); render(); }));
+  $('next').addEventListener('click', () => { open = (open + 1) % items.length; render(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') { open = (open + 1) % items.length; render(); }
+    if (e.key === 'ArrowLeft') { open = (open - 1 + items.length) % items.length; render(); }
+  });
+  render();
+})();
+</script>
+</body>
+</html>

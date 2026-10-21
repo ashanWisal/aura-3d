@@ -1,0 +1,76 @@
+{
+  "measuredAt": "2026-10-21T17:06:44.334Z",
+  "endpoint": "POST http://localhost:3456/api/contact",
+  "schema": "name: string 1-100; email: z.email(); message: string 1-2000 (src/app/api/contact/route.ts)",
+  "results": {
+    "a_valid": {
+      "status": 200,
+      "body": {
+        "data": {
+          "received": true
+        }
+      }
+    },
+    "b_invalid_email": {
+      "status": 400,
+      "body": {
+        "error": {
+          "code": "invalid_input",
+          "issues": [
+            {
+              "path": "email",
+              "message": "Invalid email address"
+            }
+          ]
+        }
+      }
+    },
+    "c1_message_2000_chars": {
+      "status": 200
+    },
+    "c2_message_2001_chars": {
+      "status": 400,
+      "issue": "Too big: expected string to have <=2000 characters"
+    },
+    "c3_message_5000_chars": {
+      "status": 400,
+      "issue": "Too big: expected string to have <=2000 characters"
+    },
+    "d_rapid_30_parallel": {
+      "statuses": {
+        "200": 30
+      },
+      "rateLimited429": 0
+    },
+    "d_rapid_30_sequential": {
+      "statuses": {
+        "200": 30
+      },
+      "rateLimited429": 0
+    },
+    "e_origin_evil_example": {
+      "status": 200,
+      "body": {
+        "data": {
+          "received": true
+        }
+      },
+      "note": "no Origin check; a cross-origin POST is accepted"
+    },
+    "f_get": {
+      "status": 405,
+      "body": ""
+    },
+    "f_get_with_evil_origin": {
+      "status": 405
+    }
+  },
+  "serverLog": {
+    "file": "qa-audit/logs/start.log",
+    "linesTotal": 8,
+    "submissionLinesFound": 0,
+    "note": "start.log has only the Next.js startup banner, no request lines. next.config.ts removeConsole strips console.log in production (excluding error/warn); the compiled route chunk does not contain the '[api/contact] submission' string (it appears only in the .map), so submissions are not logged even when CONTACT_ENDPOINT is unset."
+  },
+  "notes": "Test submissions (64 valid-shaped POSTs (1 + 1 + 1 + 1 + 30 + 30; all returned 200)) were sent to the running server; with CONTACT_ENDPOINT unset they are not forwarded anywhere.",
+  "rawLog": "qa-audit/data/api-contact.raw.txt"
+}

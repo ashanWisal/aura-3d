@@ -1,0 +1,297 @@
+{
+  "runs": [
+    {
+      "config": {
+        "name": "desktop-1x",
+        "viewport": "desktop",
+        "dpr": 1,
+        "throttle": 1,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "scroll": {
+        "steps": 200,
+        "stepMs": 100,
+        "progress": "0 -> 1",
+        "frames": 186,
+        "windowS": 20.47,
+        "avgFps": 9.08,
+        "p50Ms": 116.6,
+        "p95Ms": 149.9,
+        "maxMs": 166.7,
+        "pctFramesOver33ms": 100,
+        "pctFramesOver50ms": 99.46
+      },
+      "idle": {
+        "storyTop": {
+          "present": true,
+          "frames": 51,
+          "windowS": 5.01,
+          "avgFps": 10.18,
+          "p50Ms": 100,
+          "p95Ms": 133.3,
+          "maxMs": 149.9,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 100
+        },
+        "progress0.70": {
+          "present": true,
+          "frames": 52,
+          "windowS": 5,
+          "avgFps": 10.39,
+          "p50Ms": 99.9,
+          "p95Ms": 116.7,
+          "maxMs": 133.4,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 98.04
+        },
+        "finishes": {
+          "present": true,
+          "frames": 46,
+          "windowS": 5,
+          "avgFps": 9.19,
+          "p50Ms": 116.6,
+          "p95Ms": 133.3,
+          "maxMs": 150.1,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 100
+        },
+        "moments": {
+          "present": true,
+          "frames": 156,
+          "windowS": 5,
+          "avgFps": 31.18,
+          "p50Ms": 33.3,
+          "p95Ms": 50.1,
+          "maxMs": 66.7,
+          "pctFramesOver33ms": 70.32,
+          "pctFramesOver50ms": 7.1
+        }
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "desktop-4x",
+        "viewport": "desktop",
+        "dpr": 1,
+        "throttle": 4,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "scroll": {
+        "steps": 200,
+        "stepMs": 100,
+        "progress": "0 -> 1",
+        "frames": 213,
+        "windowS": 24.7,
+        "avgFps": 8.62,
+        "p50Ms": 116.7,
+        "p95Ms": 150,
+        "maxMs": 183.3,
+        "pctFramesOver33ms": 100,
+        "pctFramesOver50ms": 100
+      },
+      "idle": {
+        "storyTop": {
+          "present": true,
+          "frames": 46,
+          "windowS": 5.02,
+          "avgFps": 9.17,
+          "p50Ms": 100,
+          "p95Ms": 133.3,
+          "maxMs": 150,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 100
+        },
+        "progress0.70": {
+          "present": true,
+          "frames": 50,
+          "windowS": 5.01,
+          "avgFps": 9.98,
+          "p50Ms": 100,
+          "p95Ms": 133.3,
+          "maxMs": 150.1,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 97.96
+        },
+        "finishes": {
+          "present": true,
+          "frames": 45,
+          "windowS": 5.01,
+          "avgFps": 8.99,
+          "p50Ms": 116.7,
+          "p95Ms": 150,
+          "maxMs": 166.8,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 100
+        },
+        "moments": {
+          "present": true,
+          "frames": 130,
+          "windowS": 5.03,
+          "avgFps": 25.86,
+          "p50Ms": 33.4,
+          "p95Ms": 50,
+          "maxMs": 50.1,
+          "pctFramesOver33ms": 96.9,
+          "pctFramesOver50ms": 3.88
+        }
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "mobile-1x",
+        "viewport": "mobile",
+        "dpr": 2,
+        "throttle": 1,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "scroll": {
+        "steps": 200,
+        "stepMs": 100,
+        "progress": "0 -> 1",
+        "frames": 216,
+        "windowS": 20.43,
+        "avgFps": 10.57,
+        "p50Ms": 83.4,
+        "p95Ms": 149.9,
+        "maxMs": 166.7,
+        "pctFramesOver33ms": 100,
+        "pctFramesOver50ms": 96.28
+      },
+      "idle": {
+        "storyTop": {
+          "present": true,
+          "frames": 66,
+          "windowS": 5.01,
+          "avgFps": 13.18,
+          "p50Ms": 66.7,
+          "p95Ms": 100.1,
+          "maxMs": 116.7,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 93.85
+        },
+        "progress0.70": {
+          "present": true,
+          "frames": 67,
+          "windowS": 5,
+          "avgFps": 13.39,
+          "p50Ms": 66.7,
+          "p95Ms": 100.1,
+          "maxMs": 133.3,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 90.91
+        },
+        "finishes": {
+          "present": true,
+          "frames": 54,
+          "windowS": 5.01,
+          "avgFps": 10.77,
+          "p50Ms": 100,
+          "p95Ms": 116.7,
+          "maxMs": 133.3,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 100
+        },
+        "moments": {
+          "present": true,
+          "frames": 144,
+          "windowS": 5,
+          "avgFps": 28.77,
+          "p50Ms": 33.3,
+          "p95Ms": 50,
+          "maxMs": 66.7,
+          "pctFramesOver33ms": 86.01,
+          "pctFramesOver50ms": 4.9
+        }
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "mobile-4x",
+        "viewport": "mobile",
+        "dpr": 2,
+        "throttle": 4,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "scroll": {
+        "steps": 200,
+        "stepMs": 100,
+        "progress": "0 -> 1",
+        "frames": 296,
+        "windowS": 26.4,
+        "avgFps": 11.21,
+        "p50Ms": 83.4,
+        "p95Ms": 133.3,
+        "maxMs": 166.7,
+        "pctFramesOver33ms": 100,
+        "pctFramesOver50ms": 97.97
+      },
+      "idle": {
+        "storyTop": {
+          "present": true,
+          "frames": 62,
+          "windowS": 5.01,
+          "avgFps": 12.38,
+          "p50Ms": 83.3,
+          "p95Ms": 116.7,
+          "maxMs": 133.2,
+          "pctFramesOver33ms": 100,
+          "pctFramesOver50ms": 90.16
+        },
+        "progress0.70": {
+          "present": true,
+          "frames": 76,
+          "windowS": 5.05,
+          "avgFps": 15.06,
+          "p50Ms": 66.7,
+          "p95Ms": 100,
+          "maxMs": 100.1,
+          "pctFramesOver33ms": 98.67,
+          "pctFramesOver50ms": 74.67
+        },
+        "finishes": {
+          "present": true,
+          "frames": 65,
+          "windowS": 5,
+          "avgFps": 12.99,
+          "p50Ms": 83.3,
+          "p95Ms": 116.6,
+          "maxMs": 166.7,
+          "pctFramesOver33ms": 98.44,
+          "pctFramesOver50ms": 71.88
+        },
+        "moments": {
+          "present": true,
+          "frames": 135,
+          "windowS": 5.03,
+          "avgFps": 26.85,
+          "p50Ms": 33.4,
+          "p95Ms": 66.7,
+          "maxMs": 83.4,
+          "pctFramesOver33ms": 93.28,
+          "pctFramesOver50ms": 8.21
+        }
+      },
+      "errors": []
+    }
+  ],
+  "runAt": "2026-10-21T17:29:12.453Z"
+}

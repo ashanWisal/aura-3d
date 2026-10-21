@@ -1,0 +1,343 @@
+{
+  "chrome": {
+    "title": "Aura One — Wireless over-ear headphones",
+    "titleLength": 39,
+    "metaDescription": [
+      "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+    ],
+    "metaKeywords": [
+      "animation studio,2D animation,hand-painted animation,animated short film,music video animation,brand film"
+    ],
+    "robotsMeta": [
+      "index, follow"
+    ],
+    "googlebotMeta": [],
+    "xRobotViewMeta": [],
+    "canonical": [
+      "http://localhost:3000"
+    ],
+    "og": {
+      "og:title": [
+        "Aura One — Wireless over-ear headphones"
+      ],
+      "og:description": [
+        "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+      ],
+      "og:url": [
+        "http://localhost:3000"
+      ],
+      "og:site_name": [
+        "Aura"
+      ],
+      "og:locale": [
+        "en_US"
+      ],
+      "og:image": [
+        "http://localhost:3000/open-graph.png"
+      ],
+      "og:image:width": [
+        "1200"
+      ],
+      "og:image:height": [
+        "630"
+      ],
+      "og:image:alt": [
+        "Aura One headphones under a warm studio spotlight."
+      ],
+      "og:type": [
+        "website"
+      ]
+    },
+    "twitter": {
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "Aura One — Wireless over-ear headphones"
+      ],
+      "twitter:description": [
+        "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+      ],
+      "twitter:image": [
+        "http://localhost:3000/open-graph.png"
+      ],
+      "twitter:image:alt": [
+        "Aura One headphones under a warm studio spotlight."
+      ]
+    },
+    "h1Count": 1,
+    "h2Count": 11,
+    "jsonLdBlocks": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "http://localhost:3000/#organization",
+            "name": "Aura",
+            "url": "http://localhost:3000",
+            "logo": "http://localhost:3000/android-icon-512x512.png",
+            "email": "hello@aura.audio",
+            "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://localhost:3000/#website",
+            "name": "Aura",
+            "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.",
+            "url": "http://localhost:3000",
+            "publisher": {
+              "@id": "http://localhost:3000/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "@id": "http://localhost:3000/#product",
+        "name": "Aura One",
+        "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.",
+        "image": "http://localhost:3000/open-graph.png",
+        "color": "Obsidian, Sand, Midnight",
+        "brand": {
+          "@type": "Brand",
+          "name": "Aura"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "http://localhost:3000/#buy",
+          "price": "549",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "seller": {
+            "@id": "http://localhost:3000/#organization"
+          }
+        }
+      }
+    ],
+    "jsonLdRaw": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"http://localhost:3000/#organization\",\"name\":\"Aura\",\"url\":\"http://localhost:3000\",\"logo\":\"http://localhost:3000/android-icon-512x512.png\",\"email\":\"hello@aura.audio\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\"},{\"@type\":\"WebSite\",\"@id\":\"http://localhost:3000/#website\",\"name\":\"Aura\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\",\"url\":\"http://localhost:3000\",\"publisher\":{\"@id\":\"http://localhost:3000/#organization\"}}]}",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"http://localhost:3000/#product\",\"name\":\"Aura One\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\",\"image\":\"http://localhost:3000/open-graph.png\",\"color\":\"Obsidian, Sand, Midnight\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Aura\"},\"offers\":{\"@type\":\"Offer\",\"url\":\"http://localhost:3000/#buy\",\"price\":\"549\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/PreOrder\",\"seller\":{\"@id\":\"http://localhost:3000/#organization\"}}}"
+    ],
+    "iconsAndManifestLinks": [
+      "<link rel=\"manifest\" href=\"/manifest.json\"/>",
+      "<link rel=\"shortcut icon\" href=\"/favicon.ico\"/>",
+      "<link rel=\"icon\" href=\"/favicon.ico?favicon.2b5_duumv8slp.ico\" sizes=\"48x48\" type=\"image/x-icon\"/>",
+      "<link rel=\"icon\" href=\"/favicon.ico\"/>",
+      "<link rel=\"icon\" href=\"/favicon-16x16.png\" sizes=\"16x16\" type=\"image/png\"/>",
+      "<link rel=\"icon\" href=\"/favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\"/>",
+      "<link rel=\"apple-touch-icon\" href=\"/apple-icon-180x180.png\" sizes=\"180x180\" type=\"image/png\"/>"
+    ],
+    "visibleWordCount": 1321,
+    "htmlBytes": 152069,
+    "hasRobotViewPattern": true
+  },
+  "googlebot": {
+    "title": "Aura One — Wireless over-ear headphones",
+    "titleLength": 39,
+    "metaDescription": [
+      "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+    ],
+    "metaKeywords": [
+      "animation studio,2D animation,hand-painted animation,animated short film,music video animation,brand film"
+    ],
+    "robotsMeta": [
+      "index, follow"
+    ],
+    "googlebotMeta": [],
+    "xRobotViewMeta": [
+      "<meta name=\"x-robot-view\" content=\"1\"/>"
+    ],
+    "canonical": [
+      "http://localhost:3000"
+    ],
+    "og": {
+      "og:title": [
+        "Aura One — Wireless over-ear headphones"
+      ],
+      "og:description": [
+        "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+      ],
+      "og:url": [
+        "http://localhost:3000"
+      ],
+      "og:site_name": [
+        "Aura"
+      ],
+      "og:locale": [
+        "en_US"
+      ],
+      "og:image": [
+        "http://localhost:3000/open-graph.png"
+      ],
+      "og:image:width": [
+        "1200"
+      ],
+      "og:image:height": [
+        "630"
+      ],
+      "og:image:alt": [
+        "Aura One headphones under a warm studio spotlight."
+      ],
+      "og:type": [
+        "website"
+      ]
+    },
+    "twitter": {
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "Aura One — Wireless over-ear headphones"
+      ],
+      "twitter:description": [
+        "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+      ],
+      "twitter:image": [
+        "http://localhost:3000/open-graph.png"
+      ],
+      "twitter:image:alt": [
+        "Aura One headphones under a warm studio spotlight."
+      ]
+    },
+    "h1Count": 1,
+    "h2Count": 11,
+    "jsonLdBlocks": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "http://localhost:3000/#organization",
+            "name": "Aura",
+            "url": "http://localhost:3000",
+            "logo": "http://localhost:3000/android-icon-512x512.png",
+            "email": "hello@aura.audio",
+            "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://localhost:3000/#website",
+            "name": "Aura",
+            "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.",
+            "url": "http://localhost:3000",
+            "publisher": {
+              "@id": "http://localhost:3000/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "@id": "http://localhost:3000/#product",
+        "name": "Aura One",
+        "description": "Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.",
+        "image": "http://localhost:3000/open-graph.png",
+        "color": "Obsidian, Sand, Midnight",
+        "brand": {
+          "@type": "Brand",
+          "name": "Aura"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "http://localhost:3000/#buy",
+          "price": "549",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "seller": {
+            "@id": "http://localhost:3000/#organization"
+          }
+        }
+      }
+    ],
+    "jsonLdRaw": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"http://localhost:3000/#organization\",\"name\":\"Aura\",\"url\":\"http://localhost:3000\",\"logo\":\"http://localhost:3000/android-icon-512x512.png\",\"email\":\"hello@aura.audio\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\"},{\"@type\":\"WebSite\",\"@id\":\"http://localhost:3000/#website\",\"name\":\"Aura\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\",\"url\":\"http://localhost:3000\",\"publisher\":{\"@id\":\"http://localhost:3000/#organization\"}}]}",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"http://localhost:3000/#product\",\"name\":\"Aura One\",\"description\":\"Aura One: hand-finished aluminium wireless headphones with adaptive noise cancelling, beryllium drivers and a 60-hour battery. Turn them, take them apart, pick a finish and pre-order.\",\"image\":\"http://localhost:3000/open-graph.png\",\"color\":\"Obsidian, Sand, Midnight\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Aura\"},\"offers\":{\"@type\":\"Offer\",\"url\":\"http://localhost:3000/#buy\",\"price\":\"549\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/PreOrder\",\"seller\":{\"@id\":\"http://localhost:3000/#organization\"}}}"
+    ],
+    "iconsAndManifestLinks": [
+      "<link rel=\"manifest\" href=\"/manifest.json\"/>",
+      "<link rel=\"shortcut icon\" href=\"/favicon.ico\"/>",
+      "<link rel=\"icon\" href=\"/favicon.ico?favicon.2b5_duumv8slp.ico\" sizes=\"48x48\" type=\"image/x-icon\"/>",
+      "<link rel=\"icon\" href=\"/favicon.ico\"/>",
+      "<link rel=\"icon\" href=\"/favicon-16x16.png\" sizes=\"16x16\" type=\"image/png\"/>",
+      "<link rel=\"icon\" href=\"/favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\"/>",
+      "<link rel=\"apple-touch-icon\" href=\"/apple-icon-180x180.png\" sizes=\"180x180\" type=\"image/png\"/>"
+    ],
+    "visibleWordCount": 1317,
+    "htmlBytes": 147930,
+    "hasRobotViewPattern": true
+  },
+  "ogImage": {
+    "url": "http://localhost:3000/open-graph.png",
+    "fetchedUrl": "http://localhost:3456/open-graph.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 346939,
+    "width": 1200,
+    "height": 630,
+    "format": "png"
+  },
+  "robotsTxt": "User-Agent: *\nAllow: /\nDisallow: /robot-view\n\nHost: http://localhost:3000\nSitemap: http://localhost:3000/sitemap.xml\n",
+  "sitemapXml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>http://localhost:3000</loc>\n<lastmod>2026-10-21T16:49:03.422Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>1</priority>\n</url>\n<url>\n<loc>http://localhost:3000/privacy-policy</loc>\n<lastmod>2026-10-21T16:49:03.422Z</lastmod>\n<changefreq>yearly</changefreq>\n<priority>0.2</priority>\n</url>\n</urlset>\n",
+  "manifestJson": {
+    "name": "Layers — Hand-painted 2D animation studio",
+    "short_name": "Layers",
+    "description": "Hand-painted 2D animation: films, music videos and brand stories.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f4ece0",
+    "theme_color": "#f4ece0",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/android-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  },
+  "diff": {
+    "chromeBytes": 152069,
+    "googlebotBytes": 147930,
+    "identicalHtml": false,
+    "chromeWords": 1321,
+    "googlebotWords": 1317,
+    "googlebotHasXRobotViewMeta": true,
+    "chromeHasXRobotViewMeta": false
+  },
+  "fetchedAt": "2026-10-21T17:03:37.199Z",
+  "note": "Served from localhost:3456 (next start). Robot UA is proxy-rewritten to /robot-view (D-016)."
+}

@@ -1,0 +1,4 @@
+== dig +short aura.audio A
+exit=0
+== dig +short aura.audio MX
+exit=0

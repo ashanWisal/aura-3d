@@ -1,0 +1,13 @@
+{
+ "focusAfterThreeTabs": {
+  "tag": "BUTTON",
+  "text": "Analytics",
+  "insideDialog": true,
+  "dialogPresent": true
+ },
+ "localStorageAfterAcceptAll": {
+  "cookie-consent-v1": "{\"necessary\":true,\"analytics\":false,\"marketing\":false}"
+ },
+ "bannerStillVisibleAfterAccept": true,
+ "consentKey": "cookie-consent-v1"
+}

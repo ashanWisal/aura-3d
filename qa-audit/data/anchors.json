@@ -1,0 +1,167 @@
+{
+ "rows": [
+  {
+   "label": "Nav: Finishes",
+   "href": "#finishes",
+   "scrollYBefore": 0,
+   "linkCount": 1,
+   "scrollYAfter": 14400,
+   "sectionTops": {
+    "finishes": 0,
+    "sound": 886,
+    "moments": 2226,
+    "specs": 3480,
+    "reviews": 4581,
+    "buy": 5359,
+    "contact": 6136
+   },
+   "nearestSectionToViewportTop": {
+    "id": "finishes",
+    "top": 0
+   },
+   "targetTop": 0
+  },
+  {
+   "label": "Nav: Sound",
+   "href": "#sound",
+   "scrollYBefore": 0,
+   "linkCount": 1,
+   "scrollYAfter": 15286,
+   "sectionTops": {
+    "finishes": -886,
+    "sound": 0,
+    "moments": 1340,
+    "specs": 2594,
+    "reviews": 3695,
+    "buy": 4473,
+    "contact": 5250
+   },
+   "nearestSectionToViewportTop": {
+    "id": "sound",
+    "top": 0
+   },
+   "targetTop": 0
+  },
+  {
+   "label": "Nav: Specs",
+   "href": "#specs",
+   "scrollYBefore": 0,
+   "linkCount": 1,
+   "scrollYAfter": 17880,
+   "sectionTops": {
+    "finishes": -3480,
+    "sound": -2594,
+    "moments": -1254,
+    "specs": 0,
+    "reviews": 1101,
+    "buy": 1879,
+    "contact": 2656
+   },
+   "nearestSectionToViewportTop": {
+    "id": "specs",
+    "top": 0
+   },
+   "targetTop": 0
+  },
+  {
+   "label": "Nav: Reviews",
+   "href": "#reviews",
+   "scrollYBefore": 0,
+   "linkCount": 1,
+   "scrollYAfter": 18981,
+   "sectionTops": {
+    "finishes": -4581,
+    "sound": -3695,
+    "moments": -2355,
+    "specs": -1101,
+    "reviews": 0,
+    "buy": 778,
+    "contact": 1555
+   },
+   "nearestSectionToViewportTop": {
+    "id": "reviews",
+    "top": 0
+   },
+   "targetTop": 0
+  },
+  {
+   "label": "Header CTA: Pre-order",
+   "href": "#buy",
+   "scrollYBefore": 0,
+   "linkCount": 1,
+   "scrollYAfter": 19759,
+   "sectionTops": {
+    "finishes": -5359,
+    "sound": -4473,
+    "moments": -3133,
+    "specs": -1879,
+    "reviews": -778,
+    "buy": 0,
+    "contact": 777
+   },
+   "nearestSectionToViewportTop": {
+    "id": "buy",
+    "top": 0
+   },
+   "targetTop": 0
+  }
+ ],
+ "footerLinks": [
+  {
+   "text": "Talk to us\n→",
+   "href": "mailto:hello@aura.audio",
+   "target": null,
+   "rel": null
+  },
+  {
+   "text": "hello@aura.audio",
+   "href": "mailto:hello@aura.audio",
+   "target": null,
+   "rel": null
+  },
+  {
+   "text": "3D MODEL “HEADPHONES” BY SOFIAWOLFIE",
+   "href": "https://sketchfab.com/3d-models/headphones-a3b8d6252b01483194870138d48f040b",
+   "target": "_blank",
+   "rel": "noopener"
+  },
+  {
+   "text": "CC BY 4.0",
+   "href": "https://creativecommons.org/licenses/by/4.0/",
+   "target": "_blank",
+   "rel": "license noopener"
+  },
+  {
+   "text": "PRIVACY",
+   "href": "/privacy-policy",
+   "target": null,
+   "rel": null
+  },
+  {
+   "text": "BACK TO THE TOP ↑",
+   "href": "#top",
+   "target": null,
+   "rel": null
+  }
+ ],
+ "backToTop": {
+  "text": "BACK TO THE TOP ↑",
+  "href": "#top",
+  "target": null,
+  "rel": null
+ },
+ "modelCreditLinks": [
+  {
+   "text": "3D MODEL “HEADPHONES” BY SOFIAWOLFIE",
+   "href": "https://sketchfab.com/3d-models/headphones-a3b8d6252b01483194870138d48f040b",
+   "target": "_blank",
+   "rel": "noopener"
+  },
+  {
+   "text": "CC BY 4.0",
+   "href": "https://creativecommons.org/licenses/by/4.0/",
+   "target": "_blank",
+   "rel": "license noopener"
+  }
+ ]
+}

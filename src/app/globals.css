@@ -1,0 +1,273 @@
+/* `source("../")` limits class detection to `src/` (this file lives in src/app).
+   Without it Tailwind v4 scans the whole repo — including obsidian/ and .claude/,
+   where documented class *patterns* like duration-[var(--duration-*)] parse as
+   real candidates and emit CSS warnings. Docs are not a source of utilities. */
+@import "tailwindcss" source("../");
+
+/* ---------------------------------------------------------------------------
+   TIER 1 — PRIMITIVES  (`--raw-*`)
+   Raw literal values. The only tier allowed to contain a hex/px/ms literal.
+   Never referenced in markup, never bound into @theme. Rename freely.
+   Grammar: --raw-<category>-<name>[-<shade>]
+   See obsidian/frontend/design-system.md → "Token naming convention".
+   --------------------------------------------------------------------------- */
+:root {
+  /* Aura palette — a dark studio, warm paper-white copy and one gold accent
+     (the pivot pins and driver ring on the model share it). */
+  --raw-color-studio-950: #0b0a09;
+  --raw-color-studio-900: #151311;
+  --raw-color-studio-800: #221f1b;
+  --raw-color-cream: #ece5d8;
+  --raw-color-gold: #c9a35b;
+  --raw-color-black: #000000;
+
+  --raw-layer-header: 80;
+  --raw-layer-preloader: 100;
+
+  /* Type at the 1440 design width (1rem = 16px there). */
+  --raw-type-giant: 9rem;
+  --raw-type-giant-leading: 10rem;
+  --raw-type-display: 5.5rem;
+  --raw-type-display-leading: 6rem;
+  --raw-type-title: 3rem;
+  --raw-type-title-leading: 3.5rem;
+  --raw-type-subtitle: 2rem;
+  --raw-type-subtitle-leading: 2.5rem;
+  --raw-type-counter: 3.5rem;
+  --raw-type-counter-leading: 4rem;
+  --raw-type-body: 1.25rem;
+  --raw-type-body-leading: 1.875rem;
+  --raw-type-label: 0.875rem;
+  --raw-type-label-leading: 1.25rem;
+  --raw-type-meta: 0.75rem;
+  --raw-type-meta-leading: 1rem;
+
+  --raw-type-giant-portrait: 7rem;
+  --raw-type-giant-leading-portrait: 8rem;
+  --raw-type-display-portrait: 4.5rem;
+  --raw-type-display-leading-portrait: 5rem;
+  --raw-type-body-portrait: 1.5rem;
+  --raw-type-body-leading-portrait: 2.25rem;
+  --raw-type-label-portrait: 1rem;
+  --raw-type-label-leading-portrait: 1.5rem;
+  --raw-type-meta-portrait: 0.875rem;
+  --raw-type-meta-leading-portrait: 1.25rem;
+
+  --raw-type-giant-mobile: 4.5rem;
+  --raw-type-giant-leading-mobile: 5rem;
+  --raw-type-display-mobile: 2.75rem;
+  --raw-type-display-leading-mobile: 3.25rem;
+  --raw-type-title-mobile: 2rem;
+  --raw-type-title-leading-mobile: 2.5rem;
+  --raw-type-subtitle-mobile: 1.5rem;
+  --raw-type-subtitle-leading-mobile: 2rem;
+  --raw-type-counter-mobile: 2rem;
+  --raw-type-counter-leading-mobile: 2.5rem;
+  --raw-type-body-mobile: 1.0625rem;
+  --raw-type-body-leading-mobile: 1.625rem;
+  --raw-type-label-mobile: 0.8125rem;
+  --raw-type-label-leading-mobile: 1.25rem;
+  --raw-type-meta-mobile: 0.6875rem;
+  --raw-type-meta-leading-mobile: 1rem;
+
+  --raw-shadow-text: 0 1px 1rem rgb(11 10 9 / 0.6);
+  --raw-shadow-glow: 0 0 2rem rgb(201 163 91 / 0.45);
+  --raw-tracking-wide: 0.16em;
+
+  --raw-duration-fast: 150ms;
+  --raw-duration-normal: 250ms;
+}
+
+/* ---------------------------------------------------------------------------
+   TIER 2 — SEMANTIC  (role names, no namespace prefix)
+   Purpose, not appearance. Always `var(--raw-*)` — never a literal.
+   Grammar: --<role>[-<variant>][-<state>]
+   The site is dark by design (a product under a spotlight), so there is no
+   light theme.
+   --------------------------------------------------------------------------- */
+:root {
+  --background: var(--raw-color-studio-950);
+  --foreground: var(--raw-color-cream);
+  --surface: var(--raw-color-studio-900);
+  --surface-raised: var(--raw-color-studio-800);
+  --accent: var(--raw-color-gold);
+  --scrim: var(--raw-color-black);
+  --layer-header: var(--raw-layer-header);
+  --layer-preloader: var(--raw-layer-preloader);
+  --shadow-legible: var(--raw-shadow-text);
+  --shadow-glow: var(--raw-shadow-glow);
+  --letter-wide: var(--raw-tracking-wide);
+
+  --type-giant: var(--raw-type-giant);
+  --type-giant-leading: var(--raw-type-giant-leading);
+  --type-display: var(--raw-type-display);
+  --type-display-leading: var(--raw-type-display-leading);
+  --type-title: var(--raw-type-title);
+  --type-title-leading: var(--raw-type-title-leading);
+  --type-subtitle: var(--raw-type-subtitle);
+  --type-subtitle-leading: var(--raw-type-subtitle-leading);
+  --type-counter: var(--raw-type-counter);
+  --type-counter-leading: var(--raw-type-counter-leading);
+  --type-body: var(--raw-type-body);
+  --type-body-leading: var(--raw-type-body-leading);
+  --type-label: var(--raw-type-label);
+  --type-label-leading: var(--raw-type-label-leading);
+  --type-meta: var(--raw-type-meta);
+  --type-meta-leading: var(--raw-type-meta-leading);
+
+  --duration-fast: var(--raw-duration-fast);
+  --duration-normal: var(--raw-duration-normal);
+}
+
+/* Portrait tablet (<= 768px). */
+@media (width < 64.0625rem) and (orientation: portrait), (width < 48.0625rem) and (height > 31.25rem) {
+  :root {
+    --type-giant: var(--raw-type-giant-portrait);
+    --type-giant-leading: var(--raw-type-giant-leading-portrait);
+    --type-display: var(--raw-type-display-portrait);
+    --type-display-leading: var(--raw-type-display-leading-portrait);
+    --type-body: var(--raw-type-body-portrait);
+    --type-body-leading: var(--raw-type-body-leading-portrait);
+    --type-label: var(--raw-type-label-portrait);
+    --type-label-leading: var(--raw-type-label-leading-portrait);
+    --type-meta: var(--raw-type-meta-portrait);
+    --type-meta-leading: var(--raw-type-meta-leading-portrait);
+  }
+}
+
+/* Phone (<= 640px). */
+@media (width < 40.0625rem) and (orientation: portrait), (width < 40.0625rem) and (height > 31.25rem) {
+  :root {
+    --type-giant: var(--raw-type-giant-mobile);
+    --type-giant-leading: var(--raw-type-giant-leading-mobile);
+    --type-display: var(--raw-type-display-mobile);
+    --type-display-leading: var(--raw-type-display-leading-mobile);
+    --type-title: var(--raw-type-title-mobile);
+    --type-title-leading: var(--raw-type-title-leading-mobile);
+    --type-subtitle: var(--raw-type-subtitle-mobile);
+    --type-subtitle-leading: var(--raw-type-subtitle-leading-mobile);
+    --type-counter: var(--raw-type-counter-mobile);
+    --type-counter-leading: var(--raw-type-counter-leading-mobile);
+    --type-body: var(--raw-type-body-mobile);
+    --type-body-leading: var(--raw-type-body-leading-mobile);
+    --type-label: var(--raw-type-label-mobile);
+    --type-label-leading: var(--raw-type-label-leading-mobile);
+    --type-meta: var(--raw-type-meta-mobile);
+    --type-meta-leading: var(--raw-type-meta-leading-mobile);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   THEME BINDINGS — map semantic tokens into Tailwind namespaces.
+   Every entry is exactly `--<tw-namespace>-<role>: var(--<role>)`.
+   NOTE: there is NO --duration-* namespace in v4. Durations stay Tier 2 only
+   and are used as duration-[var(--duration-fast)].
+   --------------------------------------------------------------------------- */
+/* Portrait and phone layouts are picked by orientation as well as width, in
+   step with the media blocks above and the html font-size grid below. */
+@custom-variant max-portrait {
+  @media (width < 64.0625rem) and (orientation: portrait), (width < 48.0625rem) and (height > 31.25rem) {
+    @slot;
+  }
+}
+@custom-variant max-mobile {
+  @media (width < 40.0625rem) and (orientation: portrait), (width < 40.0625rem) and (height > 31.25rem) {
+    @slot;
+  }
+}
+
+@theme inline {
+  --breakpoint-tablet: 64.0625rem;
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-instrument-serif);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-accent: var(--accent);
+  --color-scrim: var(--scrim);
+  --text-shadow-legible: var(--shadow-legible);
+  --shadow-glow: var(--shadow-glow);
+  --tracking-wide: var(--letter-wide);
+
+  --text-giant: var(--type-giant);
+  --text-giant--line-height: var(--type-giant-leading);
+  --text-display: var(--type-display);
+  --text-display--line-height: var(--type-display-leading);
+  --text-title: var(--type-title);
+  --text-title--line-height: var(--type-title-leading);
+  --text-subtitle: var(--type-subtitle);
+  --text-subtitle--line-height: var(--type-subtitle-leading);
+  --text-counter: var(--type-counter);
+  --text-counter--line-height: var(--type-counter-leading);
+  --text-body: var(--type-body);
+  --text-body--line-height: var(--type-body-leading);
+  --text-label: var(--type-label);
+  --text-label--line-height: var(--type-label-leading);
+  --text-meta: var(--type-meta);
+  --text-meta--line-height: var(--type-meta-leading);
+
+  /* Leading floor for clipped TextEngine reveals — see
+     obsidian/frontend/text-engine.md → "Alignment & line-height". */
+  --leading-display: 1.1;
+
+  --ease-entrance: cubic-bezier(0.2, 0, 0, 1);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* min-height, not height: a fixed height caps the document. width is 100%,
+     not 100vw, which would include the scrollbar gutter. */
+  min-height: 100svh;
+  width: 100%;
+}
+
+@layer base {
+  /* Adaptive scaling grid — scales the root font-size with the viewport so a
+     rem-based layout stays proportional: 16 * 100 / baseWidth (vw), capped by
+     height so short screens scale down. Above 1440px <AdaptiveGrid> takes
+     over. Keep in sync with src/components/common/grid/grid.config.ts. */
+  html {
+    font-size: 16px;
+    scrollbar-width: none;
+  }
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 1440px) {
+    html {
+      font-size: min(1.111111vw, 2svh); /* 16 * 100 / 1440, 16 * 100 / 800 */
+    }
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: min(1.5625vw, 2.5svh); /* 16 * 100 / 1024, 16 * 100 / 640 */
+    }
+  }
+
+  @media (width < 64.0625rem) and (orientation: portrait), (width < 48.0625rem) and (height > 31.25rem) {
+    html {
+      font-size: min(2.083333vw, 1.777778svh); /* 16 * 100 / 768, 16 * 100 / 900 */
+    }
+  }
+
+  @media (width < 40.0625rem) and (orientation: portrait), (width < 40.0625rem) and (height > 31.25rem) {
+    html {
+      font-size: min(4.102564vw, 2.285714svh, 1.25rem); /* 16 * 100 / 390, 16 * 100 / 700 */
+    }
+  }
+}
+
+/* The consent banner is server-rendered (it paints with the page). Hidden before
+   paint for a visitor who already chose (`consent-flag.ts`) and on the robot
+   form, which has no visitor to ask (D-016). */
+html[data-consent] [data-cookie-banner],
+html:has(meta[name="x-robot-view"]) [data-cookie-banner] {
+  display: none;
+}

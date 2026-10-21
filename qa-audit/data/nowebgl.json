@@ -1,0 +1,32 @@
+{
+ "desktop": {
+  "httpStatus": 200,
+  "consoleErrors": [
+   "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  disabled by enterprise policy or commandline switch",
+   "THREE.WebGLRenderer: Error creating WebGL context.",
+   "Error: Error creating WebGL context.\n    at new ch (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:232:20345)\n    at h (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:243:43349)\n    at Object.configure (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:243:43472)\n   "
+  ],
+  "pageErrors": [],
+  "errorBoundaryTextPresent": true,
+  "canvasCount": 0,
+  "h1Text": "Something went wrong",
+  "h1Visible": true,
+  "preloaderStillPresent": false,
+  "bodyWordCount": 47
+ },
+ "mobile": {
+  "httpStatus": 200,
+  "consoleErrors": [
+   "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  disabled by enterprise policy or commandline switch",
+   "THREE.WebGLRenderer: Error creating WebGL context.",
+   "Error: Error creating WebGL context.\n    at new ch (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:232:20345)\n    at h (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:243:43349)\n    at Object.configure (http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js:243:43472)\n   "
+  ],
+  "pageErrors": [],
+  "errorBoundaryTextPresent": true,
+  "canvasCount": 0,
+  "h1Text": "Something went wrong",
+  "h1Visible": true,
+  "preloaderStillPresent": false,
+  "bodyWordCount": 47
+ }
+}

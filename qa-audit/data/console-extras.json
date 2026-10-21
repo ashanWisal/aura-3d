@@ -1,0 +1,26 @@
+[
+ {
+  "tag": "desktop",
+  "group": "404 page",
+  "type": "http404",
+  "text": "http://localhost:3456/this-page-does-not-exist"
+ },
+ {
+  "tag": "desktop",
+  "group": "404 page",
+  "type": "error",
+  "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+ },
+ {
+  "tag": "mobile",
+  "group": "404 page",
+  "type": "http404",
+  "text": "http://localhost:3456/this-page-does-not-exist"
+ },
+ {
+  "tag": "mobile",
+  "group": "404 page",
+  "type": "error",
+  "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+ }
+]

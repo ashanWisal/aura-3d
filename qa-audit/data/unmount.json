@@ -1,0 +1,37 @@
+{
+  "gpu": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+    "vendor": "Google Inc. (Intel)"
+  },
+  "before": {
+    "path": "/",
+    "lost": 0,
+    "contexts": 3,
+    "draws": 7548,
+    "canvases": 3,
+    "jsHeapUsedBytes": 20713916
+  },
+  "afterPrivacyNav3s": {
+    "path": "/privacy-policy",
+    "lost": 3,
+    "contexts": 3,
+    "draws": 7617,
+    "canvases": 0,
+    "jsHeapUsedBytes": 29015560,
+    "clientSideNavNoReload": true,
+    "linkText": "Privacy"
+  },
+  "afterGoBack": {
+    "path": "/",
+    "lost": 3,
+    "contexts": 6,
+    "draws": 11160,
+    "canvases": 3,
+    "jsHeapUsedBytes": 21235260,
+    "backWaitError": null
+  },
+  "newContextsCreatedOnBack": 3,
+  "errors": [],
+  "runAt": "2026-10-21T17:32:38.172Z"
+}

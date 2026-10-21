@@ -1,0 +1,147 @@
+{
+  "measuredAt": "2026-10-21T17:07:19.850Z",
+  "scope": "src/views/home (22 files); const declarations and tuning literals; top ~25 by consequence",
+  "count": 28,
+  "items": [
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:45-60",
+      "value": "SHOTS table (11 camera shots: at, yaw, pitch, distance, x, y, explode)",
+      "why": "Scroll-to-camera choreography; at= progress 0-1, chapters 0.2 apart"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:63",
+      "value": "FOV = 30",
+      "why": "Camera field of view"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:65-66",
+      "value": "PORTRAIT_DISTANCE = 1.7, PORTRAIT_LIFT = 0.9",
+      "why": "Portrait framing"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:68",
+      "value": "DAMPING = 5",
+      "why": "Model catch-up rate per second"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:69-70",
+      "value": "FLOAT {yaw 0.07, y 0.06}, POINTER {yaw 0.18, pitch 0.1}",
+      "why": "Idle float and pointer parallax amplitudes"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:144",
+      "value": "dpr={[1, 1.75]}",
+      "why": "DPR cap for the story canvas"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:146",
+      "value": "camera near 0.1, far 60, position [0,0,0]",
+      "why": "Camera clip planes"
+    },
+    {
+      "location": "src/views/home/headphones/story-canvas.tsx:152-153",
+      "value": "Bloom luminanceThreshold 0.9, smoothing 0.2, intensity 0.45, radius 0.6; Vignette offset 0.3, darkness 0.65",
+      "why": "Post-processing"
+    },
+    {
+      "location": "src/views/home/headphones/finish-canvas.tsx:18-19",
+      "value": "DRAG_SPEED = 0.008, SPIN_SPEED = 0.25",
+      "why": "Turntable drag and idle spin"
+    },
+    {
+      "location": "src/views/home/headphones/finish-canvas.tsx:50,87,89",
+      "value": "turn yaw -0.6; dpr [1, 1.75]; camera fov 30, z 10.5",
+      "why": "Finish turntable setup (fov duplicates FOV in story-canvas)"
+    },
+    {
+      "location": "src/views/home/headphones/headphones.tsx:44-45",
+      "value": "HEIGHT = 3.5, TOP = 1.52",
+      "why": "Model layout"
+    },
+    {
+      "location": "src/views/home/headphones/headphones.tsx:69-72",
+      "value": "STAGGER = 0.06, SPAN = 1 - STAGGER*(n-1), HEADBAND_LIFT = 0.95",
+      "why": "Staggered explode timing across cup parts"
+    },
+    {
+      "location": "src/views/home/headphones/headphones.tsx:58-64",
+      "value": "Explode offsets per part: cushion -1.35, grille -1.0, driver -0.62, board -0.18, battery 0.32, shell 0.78, cap 1.32",
+      "why": "Hand-tuned part positions"
+    },
+    {
+      "location": "src/views/home/headphones/headphones.tsx:115-118",
+      "value": "INNER_DRAWN_FOR = 0.67, CALLOUTS_FROM = 0.9",
+      "why": "When inner parts are shown and callouts start (scroll share)"
+    },
+    {
+      "location": "src/views/home/preloader.tsx:19-22",
+      "value": "DRAW_MS = 1800, EXIT_MS = 900, LIFT_REM = 6",
+      "why": "Preloader timings"
+    },
+    {
+      "location": "src/views/home/chapter-caption.tsx:24-25",
+      "value": "CAPTION_IN [0.04, 0.16], CAPTION_OUT [0.74, 0.9]",
+      "why": "Caption fade windows (scroll share)"
+    },
+    {
+      "location": "src/views/home/chapter-caption.tsx:28",
+      "value": "SLIDE_REM = 5",
+      "why": "Caption slide distance"
+    },
+    {
+      "location": "src/views/home/chapter-caption.tsx:62",
+      "value": "TICKER_LOOP_MS = 60000",
+      "why": "Ticker loop duration"
+    },
+    {
+      "location": "src/views/home/ghost-words.tsx:13-14",
+      "value": "IN [0.05, 0.3], OUT [0.7, 0.92]",
+      "why": "Ghost word fade windows"
+    },
+    {
+      "location": "src/views/home/ghost-words.tsx:16",
+      "value": "RISE_REM = 4",
+      "why": "Ghost word rise"
+    },
+    {
+      "location": "src/views/home/moments-orbit.tsx:46",
+      "value": "ARC_HALF = 55",
+      "why": "Orbit arc half-angle (degrees, assumed; unit not verified)"
+    },
+    {
+      "location": "src/views/home/product-story.tsx:24",
+      "value": "VIEWPORTS_PER_CHAPTER = 3",
+      "why": "Scroll length per chapter"
+    },
+    {
+      "location": "src/views/home/site-footer.tsx:12",
+      "value": "RUNNING_LOOP_MS = 40000",
+      "why": "Footer marquee loop"
+    },
+    {
+      "location": "src/views/home/sound-section.tsx:12",
+      "value": "STRIP_LOOP_MS = 45000",
+      "why": "Sound strip loop"
+    },
+    {
+      "location": "src/views/home/reviews-section.tsx:12",
+      "value": "PRESS_LOOP_MS = 60000",
+      "why": "Press ticker loop"
+    },
+    {
+      "location": "src/views/home/headphones/backdrop.tsx:12",
+      "value": "SIZE = 256",
+      "why": "Backdrop texture size"
+    },
+    {
+      "location": "src/views/home/headphones/studio-lights.tsx:19-26",
+      "value": "spotLight intensity 60 at [2,8,6]; directional 2.2; ambient 0.15; Environment resolution 256; Lightformer intensities 3, 1.4, 0.8",
+      "why": "Light rig (ADR-0036 concern)"
+    },
+    {
+      "location": "src/views/home/live-clock.tsx:31",
+      "value": "setTimeout(tick, 1000 - ms)",
+      "why": "Clock tick alignment"
+    }
+  ]
+}

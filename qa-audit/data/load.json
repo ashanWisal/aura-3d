@@ -1,0 +1,73 @@
+{
+  "runs": [
+    {
+      "config": {
+        "name": "desktop-1x",
+        "viewport": "desktop",
+        "dpr": 1,
+        "throttle": 1,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "navigationStartWallClock": 1792603863339,
+      "domContentLoadedMs": 172.5,
+      "loadMs": 738.4,
+      "glb": {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "responseEndMs": 1935,
+        "transferSize": 547551,
+        "encodedBodySize": 547251,
+        "decodedBodySize": 723500,
+        "startTimeMs": 1800.5
+      },
+      "preloaderSeenMs": 141.3,
+      "preloaderGoneMs": 8499.3,
+      "firstFrameTrisOver50kMs": 4068.4,
+      "firstFrameTrisOver50kIndex": 32,
+      "trisInThatFrame": 64911,
+      "trisTotal": 4527436,
+      "drawsTotal": 3825,
+      "contexts": 3,
+      "jsHeapUsedBytes": 19108632,
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "mobile-1x",
+        "viewport": "mobile",
+        "dpr": 2,
+        "throttle": 1,
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+          "vendor": "Google Inc. (Intel)"
+        }
+      },
+      "navigationStartWallClock": 1792603874954,
+      "domContentLoadedMs": 459.4,
+      "loadMs": 567,
+      "glb": {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "responseEndMs": 1599,
+        "transferSize": 547551,
+        "encodedBodySize": 547251,
+        "decodedBodySize": 723500,
+        "startTimeMs": 1473.7
+      },
+      "preloaderSeenMs": 119.4,
+      "preloaderGoneMs": 6866.4,
+      "firstFrameTrisOver50kMs": 3027.4,
+      "firstFrameTrisOver50kIndex": 30,
+      "trisInThatFrame": 64911,
+      "trisTotal": 4398023,
+      "drawsTotal": 3633,
+      "contexts": 3,
+      "jsHeapUsedBytes": 16041396,
+      "errors": []
+    }
+  ],
+  "runAt": "2026-10-21T17:31:24.702Z"
+}

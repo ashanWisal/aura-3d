@@ -1,0 +1,175 @@
+{
+  "measuredAt": "2026-10-21T17:06:25.649Z",
+  "lockfile": "package-lock.json (mtime 2026-10-19 21:10:05)",
+  "metadata": {
+    "info": 0,
+    "low": 1,
+    "moderate": 1,
+    "high": 10,
+    "critical": 1,
+    "total": 13
+  },
+  "exitCode": 1,
+  "bySeverity": {
+    "low": [
+      {
+        "pkg": "@babel/core",
+        "direct": false,
+        "fixAvailable": true
+      }
+    ],
+    "high": [
+      {
+        "pkg": "@next/eslint-plugin-next",
+        "direct": false,
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "pkg": "brace-expansion",
+        "direct": false,
+        "fixAvailable": true
+      },
+      {
+        "pkg": "braces",
+        "direct": false,
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "pkg": "browserslist",
+        "direct": false,
+        "fixAvailable": true
+      },
+      {
+        "pkg": "eslint-config-next",
+        "direct": true,
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "pkg": "fast-glob",
+        "direct": false,
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "pkg": "js-yaml",
+        "direct": false,
+        "fixAvailable": true
+      },
+      {
+        "pkg": "micromatch",
+        "direct": false,
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "pkg": "sharp",
+        "direct": false,
+        "fixAvailable": true
+      },
+      {
+        "pkg": "source-map-js",
+        "direct": false,
+        "fixAvailable": true
+      }
+    ],
+    "moderate": [
+      {
+        "pkg": "baseline-browser-mapping",
+        "direct": false,
+        "fixAvailable": true
+      }
+    ],
+    "critical": [
+      {
+        "pkg": "next",
+        "direct": true,
+        "fixAvailable": {
+          "name": "next",
+          "version": "16.4.2",
+          "isSemVerMajor": false
+        }
+      }
+    ]
+  },
+  "directDeps": [
+    "eslint-config-next",
+    "next"
+  ],
+  "yarn": {
+    "command": "yarn audit --json",
+    "lockfile": "yarn.lock (mtime 2026-10-21 21:23:29)",
+    "exitCode": 30,
+    "summary": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 2,
+        "moderate": 16,
+        "high": 38,
+        "critical": 3
+      },
+      "dependencies": 506,
+      "devDependencies": 0,
+      "optionalDependencies": 0,
+      "totalDependencies": 506
+    },
+    "advisoriesBySeverityAndModule": {
+      "high": {
+        "brace-expansion": 30,
+        "next": 1,
+        "browserslist": 2,
+        "sharp": 2,
+        "js-yaml": 1,
+        "source-map-js": 1,
+        "braces": 1
+      },
+      "moderate": {
+        "brace-expansion": 10,
+        "next": 4,
+        "baseline-browser-mapping": 2
+      },
+      "critical": {
+        "next": 3
+      },
+      "low": {
+        "next": 1,
+        "@babel/core": 1
+      }
+    },
+    "criticalNext": [
+      {
+        "title": "Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+        "vulnerable": ">=16.0.0 <16.3.3",
+        "patched": ">=16.3.3"
+      },
+      {
+        "title": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used",
+        "vulnerable": ">=16.0.0 <16.3.3",
+        "patched": ">=16.3.3"
+      },
+      {
+        "title": "Next.js: Remote Code Execution in next/og ImageResponse",
+        "vulnerable": ">=16.2.0 <16.3.6",
+        "patched": ">=16.3.6"
+      }
+    ],
+    "note": "installed next is 16.3.1 (node_modules/next/package.json), inside the vulnerable range of all three critical advisories"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "measuredAt": "2026-10-21T17:06:44.334Z",
+  "domain": "aura.audio",
+  "contactEmailsInSrc": [
+    "hello@aura.audio (src/lib/site.ts:35, src/data/home.ts:266, src/data/mocks/legal.ts:53)"
+  ],
+  "dig": {
+    "A": {
+      "plusShort": "",
+      "exitCode": 0,
+      "status": "NXDOMAIN"
+    },
+    "MX": {
+      "plusShort": "",
+      "exitCode": 0,
+      "status": "NXDOMAIN"
+    },
+    "SOA": {
+      "status": "NXDOMAIN"
+    }
+  },
+  "host_SOA": "Host aura.audio not found: 3(NXDOMAIN)",
+  "conclusion": "aura.audio returns NXDOMAIN for A, MX and SOA queries: the domain has no DNS records at the resolver used here, so the contact address hello@aura.audio cannot receive mail from this lookup. Registration status is not confirmed by these queries (NXDOMAIN does not prove unregistered).",
+  "rawDigOutput": "== dig +short aura.audio A\nexit=0\n== dig +short aura.audio MX\nexit=0\n"
+}

@@ -1,0 +1,25 @@
+{
+  "measuredAt": "2026-10-21T17:06:25.649Z",
+  "command": "npx eslint . --ignore-pattern 'qa-audit/' -f json",
+  "filesLinted": 107,
+  "totalMessages": 0,
+  "byRule": {},
+  "textRunExit": 0,
+  "textRunOutput": "empty (0 messages incl. qa-audit)",
+  "rulesTurnedOff": [
+    "@typescript-eslint/no-explicit-any",
+    "@typescript-eslint/ban-ts-comment",
+    "@typescript-eslint/no-unused-expressions",
+    "@typescript-eslint/no-unused-vars",
+    "@typescript-eslint/no-empty-object-type",
+    "prefer-const",
+    "@typescript-eslint/no-empty-function",
+    "react-hooks/set-state-in-effect"
+  ],
+  "globalIgnores": [
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts"
+  ]
+}

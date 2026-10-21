@@ -1,0 +1,249 @@
+{
+  "gpu": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Intel, Mesa Intel(R) UHD Graphics 620 (WHL GT2), OpenGL 4.6)",
+    "vendor": "Google Inc. (Intel)"
+  },
+  "rows": [
+    {
+      "position": "progress0",
+      "present": true,
+      "frames": 28,
+      "drawsPerFrame": 51,
+      "trisPerFrame": 64659,
+      "drawsDelta": 1428,
+      "trisDelta": 1810452,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "progress0.3",
+      "present": true,
+      "frames": 35,
+      "drawsPerFrame": 51,
+      "trisPerFrame": 64659,
+      "drawsDelta": 1785,
+      "trisDelta": 2263065,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "progress0.5",
+      "present": true,
+      "frames": 28,
+      "drawsPerFrame": 51,
+      "trisPerFrame": 64659,
+      "drawsDelta": 1428,
+      "trisDelta": 1810452,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "progress0.70",
+      "present": true,
+      "frames": 33,
+      "drawsPerFrame": 51,
+      "trisPerFrame": 64659,
+      "drawsDelta": 1683,
+      "trisDelta": 2133747,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "progress0.95",
+      "present": true,
+      "frames": 37,
+      "drawsPerFrame": 51,
+      "trisPerFrame": 64659,
+      "drawsDelta": 1887,
+      "trisDelta": 2392383,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "finishes",
+      "present": true,
+      "frames": 33,
+      "drawsPerFrame": 84,
+      "trisPerFrame": 129299,
+      "drawsDelta": 2772,
+      "trisDelta": 4266867,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    },
+    {
+      "position": "moments",
+      "present": true,
+      "frames": 106,
+      "drawsPerFrame": 33,
+      "trisPerFrame": 64640,
+      "drawsDelta": 3498,
+      "trisDelta": 6851840,
+      "lost": 0,
+      "contexts": 3,
+      "canvases": [
+        {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900
+        },
+        {
+          "width": 806,
+          "height": 630,
+          "cssWidth": 806,
+          "cssHeight": 630
+        },
+        {
+          "width": 432,
+          "height": 432,
+          "cssWidth": 432,
+          "cssHeight": 432
+        }
+      ]
+    }
+  ],
+  "glTotals": {
+    "contexts": 3,
+    "lost": 0,
+    "draws": 26889,
+    "tris": 38277214
+  },
+  "canvasesFinal": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 806,
+      "height": 630
+    },
+    {
+      "width": 432,
+      "height": 432
+    }
+  ],
+  "errors": [],
+  "runAt": "2026-10-21T17:30:13.829Z",
+  "note": "drawsPerFrame = rAF-counted frames in a 3 s window; deltas of cumulative __gl counters"
+}

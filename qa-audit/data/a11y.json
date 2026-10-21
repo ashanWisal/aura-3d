@@ -1,0 +1,1044 @@
+{
+  "axe": {
+    "homeDesktop": {
+      "path": "/",
+      "viewport": "desktop",
+      "status": 200,
+      "cookieBannerVisibleBeforeDismiss": true,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 5,
+          "targets": [
+            ".max-mobile\\:flex-col > span:nth-child(1)",
+            "a[rel=\"noopener\"]",
+            "a[rel=\"license noopener\"]",
+            "a[href$=\"privacy-policy\"]",
+            ".underline-offset-4.hover\\:underline[href$=\"#top\"]"
+          ],
+          "html": "<span>© 2026 Aura</span>"
+        }
+      ],
+      "passes": 44,
+      "incomplete": 1,
+      "pageErrors": []
+    },
+    "homeMobile": {
+      "path": "/",
+      "viewport": "mobile",
+      "status": 200,
+      "cookieBannerVisibleBeforeDismiss": true,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 5,
+          "targets": [
+            ".max-mobile\\:flex-col > span:nth-child(1)",
+            "a[rel=\"noopener\"]",
+            "a[rel=\"license noopener\"]",
+            "a[href$=\"privacy-policy\"]",
+            ".underline-offset-4.hover\\:underline[href$=\"#top\"]"
+          ],
+          "html": "<span>© 2026 Aura</span>"
+        }
+      ],
+      "passes": 44,
+      "incomplete": 1,
+      "pageErrors": []
+    },
+    "homeCookieOpen": {
+      "path": "/",
+      "viewport": "desktop",
+      "status": 200,
+      "cookieBannerVisibleBeforeDismiss": true,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 5,
+          "targets": [
+            ".max-mobile\\:flex-col > span:nth-child(1)",
+            "a[rel=\"noopener\"]",
+            "a[rel=\"license noopener\"]",
+            ".underline-offset-4.hover\\:underline[href$=\"privacy-policy\"]",
+            ".underline-offset-4.hover\\:underline[href$=\"#top\"]"
+          ],
+          "html": "<span>© 2026 Aura</span>"
+        }
+      ],
+      "passes": 45,
+      "incomplete": 1,
+      "pageErrors": []
+    },
+    "privacyPolicy": {
+      "path": "/privacy-policy",
+      "viewport": "desktop",
+      "status": 200,
+      "cookieBannerVisibleBeforeDismiss": true,
+      "violations": [],
+      "passes": 30,
+      "incomplete": 0,
+      "pageErrors": []
+    },
+    "notFound": {
+      "path": "/this-page-does-not-exist",
+      "viewport": "desktop",
+      "status": 404,
+      "cookieBannerVisibleBeforeDismiss": true,
+      "violations": [
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "help": "Document should have one main landmark",
+          "nodes": 1,
+          "targets": [
+            "html"
+          ],
+          "html": "<html lang=\"en\" class=\"lenis\">"
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "nodes": 1,
+          "targets": [
+            ".scroll-layout"
+          ],
+          "html": "<div class=\"scroll-layout\">"
+        }
+      ],
+      "passes": 24,
+      "incomplete": 1,
+      "pageErrors": []
+    }
+  },
+  "keyboard": {
+    "tabStops": 29,
+    "closedCycle": true,
+    "firstFocus": {
+      "tag": "A",
+      "text": "AURA",
+      "href": "#top",
+      "path": "div:1>div>header>a"
+    },
+    "skipLinkExists": false,
+    "focusedWhileVisuallyHidden": [
+      {
+        "n": 7,
+        "tag": "INPUT",
+        "text": "obsidian"
+      },
+      {
+        "n": 19,
+        "tag": "INPUT",
+        "text": "obsidian"
+      }
+    ],
+    "focusedInsideAriaHidden": [],
+    "noVisibleIndicatorCount": 3,
+    "noVisibleIndicator": [
+      {
+        "n": 20,
+        "tag": "INPUT",
+        "text": "",
+        "path": "div:1>div>main>section:6>div>form>label>input"
+      },
+      {
+        "n": 21,
+        "tag": "INPUT",
+        "text": "",
+        "path": "div:1>div>main>section:6>div>form>label:1>input"
+      },
+      {
+        "n": 29,
+        "tag": "BODY",
+        "text": "",
+        "path": "body"
+      }
+    ],
+    "focusedOutOfViewportCount": 1,
+    "coveredByHeaderCount": 0,
+    "canvases": [
+      {
+        "parent": "div",
+        "inAriaHidden": true,
+        "section": "Aura One: the headphones turn under a spotlight, show their frame and materials up close, come apart into their inner parts and click back together"
+      },
+      {
+        "parent": "div",
+        "inAriaHidden": true,
+        "section": "finishes"
+      },
+      {
+        "parent": "div",
+        "inAriaHidden": true,
+        "section": "moments"
+      }
+    ],
+    "storySection": {
+      "id": null,
+      "ariaLabel": "Aura One: the headphones turn under a spotlight, show their frame and materials up close, come apart into their inner parts and click back together",
+      "ariaLabelledby": null,
+      "role": null
+    },
+    "steps": [
+      {
+        "n": 1,
+        "tag": "A",
+        "path": "div:1>div>header>a",
+        "text": "AURA",
+        "href": "#top",
+        "visible": true,
+        "rect": {
+          "top": 32,
+          "bottom": 72,
+          "left": 48,
+          "width": 104,
+          "height": 40
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 2,
+        "tag": "A",
+        "path": "div:1>div>header>nav>ul>li>a",
+        "text": "FINISHES",
+        "href": "#finishes",
+        "visible": true,
+        "rect": {
+          "top": 43,
+          "bottom": 61,
+          "left": 379,
+          "width": 85,
+          "height": 18
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(20, 19, 17)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 3,
+        "tag": "A",
+        "path": "div:1>div>header>nav>ul>li:1>a",
+        "text": "SOUND",
+        "href": "#sound",
+        "visible": true,
+        "rect": {
+          "top": 43,
+          "bottom": 61,
+          "left": 504,
+          "width": 53,
+          "height": 18
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 4,
+        "tag": "A",
+        "path": "div:1>div>header>nav>ul>li:2>a",
+        "text": "SPECS",
+        "href": "#specs",
+        "visible": true,
+        "rect": {
+          "top": 43,
+          "bottom": 61,
+          "left": 597,
+          "width": 53,
+          "height": 18
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 5,
+        "tag": "A",
+        "path": "div:1>div>header>nav>ul>li:3>a",
+        "text": "REVIEWS",
+        "href": "#reviews",
+        "visible": true,
+        "rect": {
+          "top": 43,
+          "bottom": 61,
+          "left": 690,
+          "width": 74,
+          "height": 18
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(20, 19, 17)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 6,
+        "tag": "A",
+        "path": "div:1>div>header>div>a",
+        "text": "PRE-ORDER — $549",
+        "href": "#buy",
+        "visible": true,
+        "rect": {
+          "top": 34,
+          "bottom": 70,
+          "left": 1182,
+          "width": 210,
+          "height": 36
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 0
+      },
+      {
+        "n": 7,
+        "tag": "INPUT",
+        "path": "div:1>div>main>section:1>div>div:1>div>fieldset>div>label>input",
+        "text": "obsidian",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 446,
+          "bottom": 447,
+          "left": 909,
+          "width": 1,
+          "height": 1
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": true,
+        "inAriaHidden": false,
+        "scrollY": 14502
+      },
+      {
+        "n": 8,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li>button",
+        "text": "COMMUTE",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 420,
+          "bottom": 476,
+          "left": 506,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16564
+      },
+      {
+        "n": 9,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:1>button",
+        "text": "LONG FLIGHTS",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 501,
+          "bottom": 557,
+          "left": 405,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16564
+      },
+      {
+        "n": 10,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:2>button",
+        "text": "DEEP FOCUS",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 648,
+          "bottom": 704,
+          "left": 368,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16564
+      },
+      {
+        "n": 11,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:3>button",
+        "text": "CALLS",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 797,
+          "bottom": 853,
+          "left": 405,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16564
+      },
+      {
+        "n": 12,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:4>button",
+        "text": "FILMS",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 422,
+          "bottom": 478,
+          "left": 506,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 17055
+      },
+      {
+        "n": 13,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:5>button",
+        "text": "STUDIO",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 422,
+          "bottom": 478,
+          "left": 878,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16524
+      },
+      {
+        "n": 14,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:6>button",
+        "text": "GAMING",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 538,
+          "bottom": 594,
+          "left": 979,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16524
+      },
+      {
+        "n": 15,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:7>button",
+        "text": "TWO DEVICES",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 688,
+          "bottom": 744,
+          "left": 1016,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16524
+      },
+      {
+        "n": 16,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:8>button",
+        "text": "TRAVEL",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 837,
+          "bottom": 893,
+          "left": 979,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 16524
+      },
+      {
+        "n": 17,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:3>div:1>div>div>ul>li:9>button",
+        "text": "QUICK CHARGE",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 422,
+          "bottom": 478,
+          "left": 878,
+          "width": 56,
+          "height": 56
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 17055
+      },
+      {
+        "n": 18,
+        "tag": "A",
+        "path": "div:1>div>main>section:3>div:1>div>div:1>a",
+        "text": "PRE-ORDER — $549",
+        "href": "#buy",
+        "visible": true,
+        "rect": {
+          "top": 653,
+          "bottom": 697,
+          "left": 611,
+          "width": 218,
+          "height": 44
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 17055
+      },
+      {
+        "n": 19,
+        "tag": "INPUT",
+        "path": "div:1>div>main>section:6>div>form>fieldset>div>label>input",
+        "text": "obsidian",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 449,
+          "bottom": 450,
+          "left": 751,
+          "width": 1,
+          "height": 1
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": true,
+        "inAriaHidden": false,
+        "scrollY": 19433
+      },
+      {
+        "n": 20,
+        "tag": "INPUT",
+        "path": "div:1>div>main>section:6>div>form>label>input",
+        "text": "",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 558,
+          "bottom": 622,
+          "left": 752,
+          "width": 615,
+          "height": 64
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "none",
+        "outlineWidth": "1px",
+        "outlineColor": "rgba(17, 17, 17, 1)",
+        "boxShadow": "none",
+        "hasIndicator": false,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 19433
+      },
+      {
+        "n": 21,
+        "tag": "INPUT",
+        "path": "div:1>div>main>section:6>div>form>label:1>input",
+        "text": "",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 682,
+          "bottom": 746,
+          "left": 752,
+          "width": 615,
+          "height": 64
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "none",
+        "outlineWidth": "1px",
+        "outlineColor": "rgba(17, 17, 17, 1)",
+        "boxShadow": "none",
+        "hasIndicator": false,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 19433
+      },
+      {
+        "n": 22,
+        "tag": "BUTTON",
+        "path": "div:1>div>main>section:6>div>form>button",
+        "text": "PRE-ORDER — $549",
+        "href": null,
+        "visible": true,
+        "rect": {
+          "top": 778,
+          "bottom": 838,
+          "left": 752,
+          "width": 615,
+          "height": 60
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(201, 163, 91)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 19433
+      },
+      {
+        "n": 23,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>a",
+        "text": "Talk to us →",
+        "href": "mailto:hello@aura.audio",
+        "visible": true,
+        "rect": {
+          "top": 514,
+          "bottom": 554,
+          "left": 48,
+          "width": 151,
+          "height": 40
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 24,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>div>a",
+        "text": "hello@aura.audio",
+        "href": "mailto:hello@aura.audio",
+        "visible": true,
+        "rect": {
+          "top": 741,
+          "bottom": 771,
+          "left": 48,
+          "width": 164,
+          "height": 30
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgba(17, 17, 16, 1)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 25,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>div:1>span:1>a",
+        "text": "3D MODEL “HEADPHONES” BY SOFIAWOLFIE",
+        "href": "https://sketchfab.com/3d-models/headphones-a3b8d6252b01483194870138d48f040b",
+        "visible": true,
+        "rect": {
+          "top": 852,
+          "bottom": 868,
+          "left": 430,
+          "width": 328,
+          "height": 16
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 26,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>div:1>span:1>a:1",
+        "text": "CC BY 4.0",
+        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "visible": true,
+        "rect": {
+          "top": 852,
+          "bottom": 868,
+          "left": 785,
+          "width": 82,
+          "height": 16
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgba(17, 17, 16, 1)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 27,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>div:1>span:2>a",
+        "text": "PRIVACY",
+        "href": "/privacy-policy",
+        "visible": true,
+        "rect": {
+          "top": 852,
+          "bottom": 868,
+          "left": 1149,
+          "width": 64,
+          "height": 16
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 28,
+        "tag": "A",
+        "path": "div:1>div>footer>div:1>div:1>span:2>a:1",
+        "text": "BACK TO THE TOP ↑",
+        "href": "#top",
+        "visible": true,
+        "rect": {
+          "top": 852,
+          "bottom": 868,
+          "left": 1237,
+          "width": 155,
+          "height": 16
+        },
+        "coveredByHeader": false,
+        "outlineStyle": "auto",
+        "outlineWidth": "1px",
+        "outlineColor": "rgb(16, 16, 16)",
+        "boxShadow": "none",
+        "hasIndicator": true,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      },
+      {
+        "n": 29,
+        "tag": "BODY",
+        "path": "body",
+        "text": "",
+        "href": null,
+        "visible": false,
+        "coveredByHeader": false,
+        "outlineStyle": null,
+        "outlineWidth": null,
+        "outlineColor": null,
+        "boxShadow": null,
+        "hasIndicator": false,
+        "hiddenVisually": false,
+        "inAriaHidden": false,
+        "scrollY": 20343
+      }
+    ],
+    "focusElementStops": 28
+  },
+  "reducedMotion": {
+    "reducedMotionMatches": true,
+    "canvasCount": {
+      "story": 1,
+      "finishes": 1
+    },
+    "storyCanvas": {
+      "present": true,
+      "bytesA": 321309,
+      "bytesB": 321365,
+      "identical": false
+    },
+    "finishesCanvas": {
+      "present": true,
+      "bytesA": 58541,
+      "bytesB": 58541,
+      "identical": true
+    },
+    "marqueeCount": 8,
+    "marqueesMoved": 0,
+    "marquees": [
+      {
+        "i": 0,
+        "cls": "flex h-full w-max items-center gap-5 pr-5 font-mono text-meta uppercase tracking",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 1,
+        "cls": "flex h-full w-max items-center gap-5 pr-5 font-mono text-meta uppercase tracking",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 2,
+        "cls": "flex h-full w-max items-center gap-5 pr-5 font-mono text-meta uppercase tracking",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 3,
+        "cls": "flex h-full w-max items-center gap-5 pr-5 font-mono text-meta uppercase tracking",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 4,
+        "cls": "flex h-full w-max items-center gap-5 pr-5 font-mono text-meta uppercase tracking",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 5,
+        "cls": "flex h-full w-max items-center gap-10 pr-10 font-mono text-label uppercase track",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 6,
+        "cls": "flex h-full w-max items-center gap-12 pr-12 font-display text-subtitle whitespac",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      },
+      {
+        "i": 7,
+        "cls": "flex h-full w-max items-center gap-16 pr-16 font-display text-giant whitespace-n",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "transformAfter2s": "matrix(1, 0, 0, 1, 0, 0)",
+        "moved": false
+      }
+    ]
+  },
+  "touch": {
+    "pageTopSwipe": {
+      "before": 0,
+      "after": 385,
+      "delta": 385
+    },
+    "finishesVerticalSwipe": {
+      "point": {
+        "x": 195,
+        "y": 534,
+        "canvasRect": {
+          "top": 80,
+          "bottom": 544,
+          "left": 12,
+          "right": 378
+        },
+        "hitTag": "CANVAS",
+        "hitIsCanvas": true
+      },
+      "before": 13504,
+      "after": 13889,
+      "delta": 385
+    },
+    "finishesHorizontalSwipe": {
+      "point": {
+        "x": 195,
+        "y": 149,
+        "canvasRect": {
+          "top": -305,
+          "bottom": 159,
+          "left": 12,
+          "right": 378
+        },
+        "hitTag": "CANVAS",
+        "hitIsCanvas": true
+      },
+      "before": 13889,
+      "after": 13889,
+      "delta": 0
+    },
+    "htmlPaddingTop": "0px",
+    "envSafeAreaRules": 0,
+    "envSafeAreaInlineStyles": 0,
+    "unreadableSheets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "viewportFitCover": false
+  },
+  "focusShots": {
+    "ctaId": "S150",
+    "ctaFocused": true,
+    "ctaTabs": 6,
+    "ctaStyle": {
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(201, 163, 91)",
+      "outlineOffset": "4px"
+    },
+    "momentId": "S151",
+    "momentText": "COMMUTE",
+    "momentFocused": true,
+    "momentStyle": {
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(201, 163, 91)",
+      "boxShadow": "none"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "measuredAt": "2026-10-21T17:06:25.649Z",
+  "scope": "src/ import/require/from specifiers (regex) for every package.json dependency and devDependency; config files checked separately",
+  "depsWithZeroSrcImports": [
+    {
+      "dep": "postprocessing",
+      "kind": "dependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "react-dom",
+      "kind": "dependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "resize-observer-polyfill",
+      "kind": "dependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "@tailwindcss/postcss",
+      "kind": "devDependency",
+      "rootConfigRefs": [
+        "postcss.config.mjs"
+      ]
+    },
+    {
+      "dep": "@types/node",
+      "kind": "devDependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "@types/react",
+      "kind": "devDependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "@types/react-dom",
+      "kind": "devDependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "@types/three",
+      "kind": "devDependency",
+      "rootConfigRefs": []
+    },
+    {
+      "dep": "eslint",
+      "kind": "devDependency",
+      "rootConfigRefs": [
+        "eslint.config.mjs"
+      ]
+    },
+    {
+      "dep": "eslint-config-next",
+      "kind": "devDependency",
+      "rootConfigRefs": [
+        "eslint.config.mjs"
+      ]
+    },
+    {
+      "dep": "typescript",
+      "kind": "devDependency",
+      "rootConfigRefs": []
+    }
+  ],
+  "depsNotes": {
+    "react-dom": "0 src imports; used implicitly by Next/React runtime",
+    "postprocessing": "0 direct imports; peer of @react-three/postprocessing (which is imported)",
+    "resize-observer-polyfill": "0 imports anywhere in src or root configs",
+    "typescript": "tooling only",
+    "eslint/eslint-config-next": "used by eslint.config.mjs",
+    "@tailwindcss/postcss": "used by postcss.config.mjs",
+    "@types/*": "type-only"
+  },
+  "unusedSourceFiles": [
+    "src/app/error.tsx",
+    "src/app/favicon.ico",
+    "src/app/not-found.tsx",
+    "src/app/robots.ts",
+    "src/app/sitemap.ts",
+    "src/components/animation/springs/handle.tsx",
+    "src/components/animation/springs/hover.tsx",
+    "src/components/animation/springs/spring-trigger.tsx",
+    "src/components/common/scroll-sequence.tsx",
+    "src/components/common/skeleton-image.tsx",
+    "src/components/common/skeleton-loader.tsx",
+    "src/components/common/skeleton-video.tsx",
+    "src/hooks/animation/use-in-view-ref.ts",
+    "src/hooks/animation/use-on-shown.ts",
+    "src/hooks/use-after-load.ts",
+    "src/style/index.css",
+    "src/types/robot-view.d.ts",
+    "src/utils/animation/coords.ts",
+    "src/utils/is-bot.ts",
+    "src/utils/lvh.ts"
+  ],
+  "unusedNotes": "Resolver follows @/ and relative imports (+ .ts/.tsx/.css/.d.ts/index). app/error.tsx, not-found.tsx, robots.ts, sitemap.ts, favicon.ico are Next.js file conventions (not imported). src/proxy.ts is the Next proxy entry (excluded). src/types/robot-view.d.ts is a global augmentation consumed by tsconfig, not an import. src/style/index.css has no importer.",
+  "largestTsTsx": [
+    {
+      "file": "src/views/home/headphones/headphones.tsx",
+      "lines": 463
+    },
+    {
+      "file": "src/components/animation/written-lines.tsx",
+      "lines": 373
+    },
+    {
+      "file": "src/hooks/use-image-sequence.ts",
+      "lines": 367
+    },
+    {
+      "file": "src/data/home.ts",
+      "lines": 309
+    },
+    {
+      "file": "src/components/common/Cookie/CookiePreferencesModal.tsx",
+      "lines": 238
+    },
+    {
+      "file": "src/hooks/animation/use-spring-trigger.ts",
+      "lines": 210
+    },
+    {
+      "file": "src/components/animation/springs/hover.tsx",
+      "lines": 203
+    },
+    {
+      "file": "src/components/animation/springs/in-view.tsx",
+      "lines": 202
+    },
+    {
+      "file": "src/components/animation/springs/spring.tsx",
+      "lines": 184
+    },
+    {
+      "file": "src/components/animation/misted-lines.tsx",
+      "lines": 162
+    }
+  ],
+  "totalSrcFiles": 106
+}

@@ -1,0 +1,29 @@
+(a) valid
+200 0.018586
+{"data":{"received":true}}
+(b) invalid email
+400 0.015498
+{"error":{"code":"invalid_input","message":"Invalid request payload.","issues":[{"path":"email","message":"Invalid email address"}]}}
+(c1) 2000-char message
+200 0.010254
+{"data":{"received":true}}
+(c2) 2001-char message
+400 0.008687
+{"error":{"code":"invalid_input","message":"Invalid request payload.","issues":[{"path":"message","message":"Too big: expected string to have <=2000 characters"}]}}
+(c3) 5000-char message
+400 0.006109
+{"error":{"code":"invalid_input","message":"Invalid request payload.","issues":[{"path":"message","message":"Too big: expected string to have <=2000 characters"}]}}
+(e) evil origin
+200 0.008769
+{"data":{"received":true}}
+(e2) no origin header sanity
+200 0.006714
+{"data":{"received":true}}
+(f) GET
+405
+
+(f2) GET with evil origin
+405
+
+(d) 30 rapid
+     30 200

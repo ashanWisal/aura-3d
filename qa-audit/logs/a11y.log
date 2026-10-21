@@ -1,0 +1,23 @@
+axe homeDesktop 1 violations
+axe homeMobile 1 violations
+axe homeCookieOpen 1 violations
+axe privacyPolicy 0 violations
+axe notFound 2 violations
+keyboard stops 29 closedCycle true noIndicator 3
+reducedMotion story identical false finishes identical true marquees moved 0 / 0
+touch pageTop delta 385 finishes vertical delta 385 horizontal delta 0
+cta focused true tabs 6 box { x: 1181.953125, y: 34, width: 210.0625, height: 35.96875 } {
+  outlineStyle: 'solid',
+  outlineWidth: '2px',
+  outlineColor: 'rgb(201, 163, 91)',
+  outlineOffset: '4px'
+}
+S150 desktop — keyboard focus on header CTA (outline 2px accent, offset 4px); computed outline-style solid, width 2px
+moment focused true COMMUTE { x: 506.1640625, y: 421.4609375, width: 55.984375, height: 55.984375 } {
+  outlineStyle: 'solid',
+  outlineWidth: '2px',
+  outlineColor: 'rgb(201, 163, 91)',
+  boxShadow: 'none'
+}
+S151 desktop — moments ring button focus state ("COMMUTE"); outline solid 2px, shadow none
+done

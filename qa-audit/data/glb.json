@@ -1,0 +1,407 @@
+{
+ "asset": {
+  "generator": "glTF-Transform v4.5.1",
+  "version": "2.0",
+  "extras": {
+   "author": "SofiaWolfie (https://sketchfab.com/SofiaWolfie)",
+   "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+   "source": "https://sketchfab.com/3d-models/headphones-a3b8d6252b01483194870138d48f040b",
+   "title": "Headphones"
+  }
+ },
+ "extensionsUsed": [
+  "EXT_meshopt_compression",
+  "EXT_texture_webp",
+  "KHR_materials_specular",
+  "KHR_mesh_quantization"
+ ],
+ "extensionsRequired": [
+  "EXT_meshopt_compression",
+  "EXT_texture_webp",
+  "KHR_mesh_quantization"
+ ],
+ "meshes": [
+  {
+   "mesh": "Object_0",
+   "material": "puffar",
+   "tris": 18077,
+   "verts": 9542,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_1",
+   "material": "bas_headphones",
+   "tris": 21549,
+   "verts": 11668,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_2",
+   "material": "mellan_del",
+   "tris": 3472,
+   "verts": 3464,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_3",
+   "material": "cirkel",
+   "tris": 765,
+   "verts": 775,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_4",
+   "material": "metall",
+   "tris": 10008,
+   "verts": 5237,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_5",
+   "material": "vitt_skinn",
+   "tris": 3763,
+   "verts": 1938,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_6",
+   "material": "hr_del_skinn",
+   "tris": 260,
+   "verts": 260,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_7",
+   "material": "cirkel_ytter",
+   "tris": 530,
+   "verts": 528,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  },
+  {
+   "mesh": "Object_8",
+   "material": "metall_insida",
+   "tris": 720,
+   "verts": 460,
+   "attrs": [
+    "NORMAL",
+    "TANGENT",
+    "POSITION",
+    "TEXCOORD_0"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 5896
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 24628
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 21034
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 2200
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 17570
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 1990
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 24744
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 2272
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 5932
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 1976
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 6580
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 5820
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 16630
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 8128
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 10540
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 7526
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 147852
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 8684
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 3236
+  },
+  {
+   "name": "",
+   "uri": "",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 2100
+  }
+ ],
+ "materials": [
+  {
+   "name": "puffar",
+   "base": true,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "bas_headphones",
+   "base": true,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "mellan_del",
+   "base": false,
+   "normal": false,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "cirkel",
+   "base": true,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "metall",
+   "base": false,
+   "normal": false,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "vitt_skinn",
+   "base": true,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "hr_del_skinn",
+   "base": true,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "cirkel_ytter",
+   "base": false,
+   "normal": false,
+   "mr": true,
+   "occ": true
+  },
+  {
+   "name": "metall_insida",
+   "base": false,
+   "normal": true,
+   "mr": true,
+   "occ": true
+  }
+ ],
+ "totals": {
+  "tris": 59144,
+  "verts": 33872,
+  "meshes": 9,
+  "textures": 20,
+  "textureBytes": 325338
+ }
+}

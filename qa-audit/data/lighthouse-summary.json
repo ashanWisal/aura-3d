@@ -1,0 +1,346 @@
+{
+  "mobile-default": {
+    "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "categories": {
+      "performance": 52,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcpMs": 950.6,
+    "lcpMs": 3488.9,
+    "tbtMs": 18649,
+    "cls": 0,
+    "speedIndexMs": 11391.1,
+    "totalByteWeight": 1197663,
+    "lcpElement": "<p class=\"absolute w-100 text-body text-foreground/85 max-portrait:right-8 max-portr\u2026\" style=\"opacity:1;transform:translateX(0rem)\">",
+    "top5RequestsByTransferSize": [
+      {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "bytes": 547959
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js",
+        "bytes": 325126
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/34wvn5zw0a69w.js",
+        "bytes": 65056
+      },
+      {
+        "url": "http://localhost:3456/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+        "bytes": 48732
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2gefo9ja1l2mo.js",
+        "bytes": 45539
+      }
+    ],
+    "failedAudits": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.64
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.05
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "score": 0
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      }
+    ],
+    "runtimeError": null
+  },
+  "desktop-default": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "categories": {
+      "performance": 60,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcpMs": 278.9,
+    "lcpMs": 638.8,
+    "tbtMs": 2319.5,
+    "cls": 0,
+    "speedIndexMs": 4539.7,
+    "totalByteWeight": 1197663,
+    "lcpElement": "<p class=\"absolute w-100 text-body text-foreground/85 max-portrait:right-8 max-portr\u2026\" style=\"opacity:1;transform:translateX(0rem)\">",
+    "top5RequestsByTransferSize": [
+      {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "bytes": 547959
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js",
+        "bytes": 325126
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/34wvn5zw0a69w.js",
+        "bytes": 65056
+      },
+      {
+        "url": "http://localhost:3456/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+        "bytes": 48732
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2gefo9ja1l2mo.js",
+        "bytes": 45539
+      }
+    ],
+    "failedAudits": [
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.06
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.01
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.42
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "score": 0
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "score": 0
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      }
+    ],
+    "runtimeError": null
+  },
+  "mobile-human": {
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
+    "categories": {
+      "performance": 53,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcpMs": 1200.3,
+    "lcpMs": 3237.8,
+    "tbtMs": 17391,
+    "cls": 0,
+    "speedIndexMs": 11731.2,
+    "totalByteWeight": 1197663,
+    "lcpElement": "<p class=\"absolute w-100 text-body text-foreground/85 max-portrait:right-8 max-portr\u2026\" style=\"opacity:1;transform:translateX(0rem)\">",
+    "top5RequestsByTransferSize": [
+      {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "bytes": 547959
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js",
+        "bytes": 325126
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/34wvn5zw0a69w.js",
+        "bytes": 65056
+      },
+      {
+        "url": "http://localhost:3456/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+        "bytes": 48732
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2gefo9ja1l2mo.js",
+        "bytes": 45539
+      }
+    ],
+    "failedAudits": [
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.71
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.04
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "score": 0
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      }
+    ],
+    "runtimeError": null
+  },
+  "desktop-human": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "categories": {
+      "performance": 60,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcpMs": 298.9,
+    "lcpMs": 740.7,
+    "tbtMs": 3764.3,
+    "cls": 0,
+    "speedIndexMs": 6354.9,
+    "totalByteWeight": 1197663,
+    "lcpElement": "<p class=\"absolute w-100 text-body text-foreground/85 max-portrait:right-8 max-portr\u2026\" style=\"opacity:1;transform:translateX(0rem)\">",
+    "top5RequestsByTransferSize": [
+      {
+        "url": "http://localhost:3456/assets/models/aura-one.glb",
+        "bytes": 547959
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2feutdih1c-nr.js",
+        "bytes": 325126
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/34wvn5zw0a69w.js",
+        "bytes": 65056
+      },
+      {
+        "url": "http://localhost:3456/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+        "bytes": 48732
+      },
+      {
+        "url": "http://localhost:3456/_next/static/chunks/2gefo9ja1l2mo.js",
+        "bytes": 45539
+      }
+    ],
+    "failedAudits": [
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.01
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.25
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "score": 0
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "score": 0
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      }
+    ],
+    "runtimeError": null
+  }
+}

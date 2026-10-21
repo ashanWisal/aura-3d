@@ -1,0 +1,52 @@
+== group Reduced motion
+S130 desktop, reduced motion — page top after load
+S131 desktop, reduced motion — story progress 70% (explode)
+S132 desktop, reduced motion — #finishes
+== group WebGL disabled
+S133 desktop — WebGL disabled, page top after ~8 s
+FAIL nogl finishes desktop page.evaluate: TypeError: Cannot read properties of null (reading 'getBoundingClientRect')
+    at eval (eval at evaluate (:290:30), <anonymous>:3:18)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+FAIL nogl moments desktop page.evaluate: TypeError: Cannot read properties of null (reading 'getBoundingClientRect')
+    at eval (eval at evaluate (:290:30), <anonymous>:3:18)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+S134 mobile — WebGL disabled, page top after ~8 s
+FAIL nogl finishes mobile page.evaluate: TypeError: Cannot read properties of null (reading 'getBoundingClientRect')
+    at eval (eval at evaluate (:290:30), <anonymous>:3:18)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+FAIL nogl moments mobile page.evaluate: TypeError: Cannot read properties of null (reading 'getBoundingClientRect')
+    at eval (eval at evaluate (:290:30), <anonymous>:3:18)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+== group JavaScript disabled
+S135 desktop, JavaScript disabled — page top
+FAIL nojs specs locator.scrollIntoViewIfNeeded: Element is not attached to the DOM
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retryi
+== group Robot view (crawler UA)
+S136 desktop, Googlebot UA — robot view, page top
+== group Cookie consent
+S137 desktop, fresh visit — cookie banner
+S138 desktop — Manage preferences modal open
+S139 desktop — modal after 3 Tab presses (focus check)
+== group 404 page
+S140 desktop — /this-page-does-not-exist (HTTP 404)
+S141 mobile — /this-page-does-not-exist (HTTP 404)
+== group Privacy policy
+S142 desktop — /privacy-policy top (HTTP 200)
+S143 mobile — /privacy-policy top (HTTP 200)
+== group Header & nav
+S144 mobile — page top, header nav/menu check
+S145 tablet-portrait — page top, header nav/menu check
+== group Loading
+FAIL group Loading page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+== group Anchors & clock
+S147 desktop — header clock at page top (read twice, 3 s apart)
+LAST_ID 147 failures 6

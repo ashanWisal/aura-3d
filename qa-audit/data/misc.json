@@ -1,0 +1,74 @@
+{
+ "reducedMotion": {
+  "preloaderCountAt500ms": 0,
+  "preloaderVisibleAt500ms": false,
+  "preloaderCountAfterLoad": 0,
+  "reducedMotionMatches": true
+ },
+ "robotView": {
+  "httpStatus": 200,
+  "finalUrl": "http://localhost:3456/",
+  "title": "Aura One — Wireless over-ear headphones",
+  "h1": "Silence,Silence, made by hand.made by hand. ",
+  "canvasCount": 0,
+  "cookieBannerPresent": false
+ },
+ "notFound": {
+  "desktop": {
+   "httpStatus": 404,
+   "finalUrl": "http://localhost:3456/this-page-does-not-exist",
+   "h1": "404"
+  },
+  "mobile": {
+   "httpStatus": 404,
+   "finalUrl": "http://localhost:3456/this-page-does-not-exist",
+   "h1": "404"
+  }
+ },
+ "privacyPolicy": {
+  "desktop": {
+   "httpStatus": 200,
+   "finalUrl": "http://localhost:3456/privacy-policy",
+   "h1": "Privacy Policy"
+  },
+  "mobile": {
+   "httpStatus": 200,
+   "finalUrl": "http://localhost:3456/privacy-policy",
+   "h1": "Privacy Policy"
+  }
+ },
+ "headerNav": {
+  "mobile": {
+   "navLinksInDom": 4,
+   "navLinksVisible": 0,
+   "navLinkTexts": [
+    "Finishes",
+    "Sound",
+    "Specs",
+    "Reviews"
+   ],
+   "headerButtons": [],
+   "menuButtonFound": false,
+   "headerCtaVisible": true
+  },
+  "tablet-portrait": {
+   "navLinksInDom": 4,
+   "navLinksVisible": 0,
+   "navLinkTexts": [
+    "Finishes",
+    "Sound",
+    "Specs",
+    "Reviews"
+   ],
+   "headerButtons": [],
+   "menuButtonFound": false,
+   "headerCtaVisible": true
+  }
+ },
+ "liveClock": {
+  "selector": "header time",
+  "first": "22:42:52",
+  "afterThreeSeconds": "22:42:55",
+  "changed": true
+ }
+}

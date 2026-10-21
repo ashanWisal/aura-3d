@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aura One — Pre-order drawer (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0a09;--surface:#151311;--raised:#221f1b;--cream:#ece5d8;--cream-75:rgba(236,229,216,.75);--cream-55:rgba(236,229,216,.55);--gold:#c9a35b;--line:rgba(236,229,216,.12);--line-strong:rgba(236,229,216,.22)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body{min-height:100vh;overflow:hidden}
+h1,h2{font-family:'Instrument Serif',serif;font-weight:400;letter-spacing:-.01em;line-height:1.05}
+button,input,select{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+a{color:var(--cream)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.mono{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-55)}
+.badge{position:fixed;left:16px;bottom:16px;z-index:400;font:500 11px/1 'JetBrains Mono',monospace;letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border-radius:999px;background:#2a1f10;color:var(--gold);border:1px solid rgba(201,163,91,.4)}
+
+/* page behind the drawer */
+.page{position:fixed;inset:0;background:radial-gradient(circle at 40% 45%,#2e2821 0%,#0b0a09 65%);display:grid;place-items:center}
+.page .ghost{width:min(520px,70vw);opacity:.5}
+.scrim{position:fixed;inset:0;background:rgba(11,10,9,.72);backdrop-filter:blur(3px);z-index:10}
+
+/* product svg */
+.phones{display:block;width:100%;height:auto;overflow:visible;--finish:#1b1a1e;--pad:#5b4a3a}
+.phones .shell{fill:var(--finish)}
+.phones .band{fill:none;stroke:var(--finish);stroke-width:22;stroke-linecap:round}
+.phones .pad{fill:var(--pad)}
+
+/* drawer */
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(520px,100%);z-index:20;background:var(--surface);border-left:1px solid var(--line-strong);display:flex;flex-direction:column;box-shadow:-30px 0 80px rgba(0,0,0,.5)}
+.dhead{display:flex;justify-content:space-between;align-items:center;padding:24px 28px;border-bottom:1px solid var(--line)}
+.dhead h2{font-size:32px}
+.close{width:40px;height:40px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;font-size:18px;color:var(--cream-75)}
+.steps{display:flex;gap:8px;list-style:none;padding:16px 28px;border-bottom:1px solid var(--line)}
+.steps li{flex:1;display:flex;flex-direction:column;gap:8px}
+.steps li::before{content:"";height:2px;background:var(--line-strong);border-radius:2px}
+.steps li[data-state="done"]::before,.steps li[data-state="active"]::before{background:var(--gold)}
+.steps span{font-size:13px;color:var(--cream-55)}
+.steps li[data-state="active"] span{color:var(--cream)}
+.steps b{font-family:'JetBrains Mono',monospace;font-weight:400;color:var(--gold);margin-right:6px;font-size:11px}
+.body{flex:1;overflow:auto;padding:28px}
+.step{display:none;flex-direction:column;gap:20px}
+.step.on{display:flex}
+.step h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:44px;line-height:1.05}
+.hint{color:var(--cream-75);font-size:15px}
+.opt{display:flex;align-items:center;gap:16px;padding:16px;border:1px solid var(--line);border-radius:20px;background:var(--raised);cursor:pointer;text-align:left;width:100%}
+.opt[aria-checked="true"]{border-color:rgba(201,163,91,.6);box-shadow:inset 0 0 0 1px rgba(201,163,91,.3)}
+.opt .dot{width:44px;height:44px;border-radius:50%;background:var(--sw);box-shadow:inset 0 0 0 1px var(--line-strong);flex:none}
+.opt .name{flex:1;font-size:16px}
+.opt .name small{display:block;color:var(--cream-55);font-size:13px}
+.opt .tick{width:20px;height:20px;border-radius:50%;border:1px solid var(--line-strong)}
+.opt[aria-checked="true"] .tick{background:var(--gold);border-color:var(--gold);box-shadow:inset 0 0 0 4px var(--raised)}
+.field{display:flex;flex-direction:column;gap:8px}
+.field label{font-size:14px;color:var(--cream-75)}
+.field input{height:52px;border-radius:14px;border:1px solid var(--line-strong);background:var(--bg);padding:0 16px;font-size:16px}
+.field input:focus{border-color:var(--gold);outline:none;box-shadow:0 0 0 3px rgba(201,163,91,.2)}
+.field input:invalid:not(:placeholder-shown){border-color:#b8643f}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.review{border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.review div{display:flex;justify-content:space-between;gap:16px;padding:14px 18px;font-size:15px;border-top:1px solid var(--line)}
+.review div:first-child{border-top:0}
+.review dt{color:var(--cream-55)}
+.review dd{text-align:right}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--cream-75);cursor:pointer}
+.consent input{width:20px;height:20px;margin-top:2px;accent-color:#c9a35b;flex:none}
+.consent a{color:var(--gold)}
+.summary{border-top:1px solid var(--line);padding:20px 28px;display:flex;gap:16px;align-items:center;background:var(--surface)}
+.thumb{width:72px;height:72px;border-radius:16px;background:radial-gradient(circle at 50% 40%,#2e2821,#0b0a09 75%);display:grid;place-items:center;flex:none;border:1px solid var(--line)}
+.thumb .phones{width:64px}
+.sum-text{flex:1;min-width:0}
+.sum-text b{font-weight:500;display:block;font-size:15px}
+.sum-text .mono{display:block;margin-top:4px;text-transform:none;letter-spacing:.02em;font-size:12px}
+.price{font-family:'Instrument Serif',serif;font-size:36px;line-height:1}
+.foot{padding:20px 28px 28px;display:flex;gap:12px;border-top:1px solid var(--line)}
+.btn{flex:1;height:56px;border-radius:999px;font-weight:500;font-size:16px}
+.btn-gold{background:var(--gold);color:var(--bg)}
+.btn-gold:hover{filter:brightness(1.07)}
+.btn-gold:disabled{background:var(--raised);color:var(--cream-55);cursor:not-allowed;filter:none}
+.btn-ghost{border:1px solid var(--line-strong);color:var(--cream);flex:0 0 120px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:72px;z-index:500;background:var(--raised);border:1px solid var(--line-strong);border-radius:999px;padding:12px 20px;font-size:14px;opacity:0;transition:opacity .3s;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:560px){
+  .drawer{width:100%;border-left:0}
+  .dhead{padding:20px}
+  .steps{padding:14px 20px}
+  .body{padding:24px 20px}
+  .step h3{font-size:36px}
+  .summary{padding:16px 20px}
+  .foot{padding:16px 20px 24px}
+  .steps span{font-size:12px}
+  .row2{grid-template-columns:1fr}
+  .btn-ghost{flex:0 0 96px}
+  .foot{padding-bottom:64px}
+}
+</style>
+</head>
+<body>
+<div class="page" aria-hidden="true">
+  <svg class="phones ghost" viewBox="0 0 400 320">
+    <path class="band" d="M70 200 C70 50 330 50 330 200"/>
+    <ellipse class="pad" cx="72" cy="218" rx="56" ry="68"/>
+    <ellipse class="pad" cx="328" cy="218" rx="56" ry="68"/>
+    <rect class="shell" x="30" y="166" width="84" height="104" rx="38"/>
+    <rect class="shell" x="286" y="166" width="84" height="104" rx="38"/>
+  </svg>
+</div>
+<div class="scrim"></div>
+
+<aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dtitle">
+  <header class="dhead">
+    <h2 id="dtitle">Pre-order Aura One</h2>
+    <button class="close" aria-label="Close checkout">×</button>
+  </header>
+
+  <ol class="steps" id="steps">
+    <li data-state="active"><span><b>1</b>Finish</span></li>
+    <li data-state="todo"><span><b>2</b>Details</span></li>
+    <li data-state="todo"><span><b>3</b>Confirm</span></li>
+  </ol>
+
+  <div class="body">
+    <!-- Step 1 -->
+    <section class="step on" data-step="1" aria-labelledby="s1">
+      <p class="mono">Step 1 of 3</p>
+      <h3 id="s1">Choose a finish</h3>
+      <p class="hint">Every finish ships with a Lambskin cushion. The finish is anodised aluminium on the cap and matte on the shell.</p>
+      <div role="radiogroup" aria-label="Finish" style="display:flex;flex-direction:column;gap:12px">
+        <button class="opt" role="radio" aria-checked="true" data-name="Obsidian" data-hex="#1b1a1e" style="--sw:#1b1a1e"><span class="dot"></span><span class="name">Obsidian<small>Matte black shell</small></span><span class="tick"></span></button>
+        <button class="opt" role="radio" aria-checked="false" data-name="Sand" data-hex="#d6cbb8" style="--sw:#d6cbb8"><span class="dot"></span><span class="name">Sand<small>Warm off-white shell</small></span><span class="tick"></span></button>
+        <button class="opt" role="radio" aria-checked="false" data-name="Midnight" data-hex="#1f2d42" style="--sw:#1f2d42"><span class="dot"></span><span class="name">Midnight<small>Deep navy shell</small></span><span class="tick"></span></button>
+      </div>
+    </section>
+
+    <!-- Step 2 -->
+    <section class="step" data-step="2" aria-labelledby="s2">
+      <p class="mono">Step 2 of 3</p>
+      <h3 id="s2">Where should we send it?</h3>
+      <form id="details" onsubmit="return false" style="display:flex;flex-direction:column;gap:18px">
+        <div class="field"><label for="fn">Full name</label><input id="fn" required autocomplete="name" placeholder="Jane Doe"></div>
+        <div class="field"><label for="em">Email</label><input id="em" type="email" required autocomplete="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="ad">Shipping address</label><input id="ad" required autocomplete="street-address" placeholder="Street, city, postcode"></div>
+      </form>
+    </section>
+
+    <!-- Step 3 -->
+    <section class="step" data-step="3" aria-labelledby="s3">
+      <p class="mono">Step 3 of 3</p>
+      <h3 id="s3">Check and confirm</h3>
+      <dl class="review">
+        <div><dt>Finish</dt><dd id="r-finish">Obsidian</dd></div>
+        <div><dt>Name</dt><dd id="r-name">—</dd></div>
+        <div><dt>Email</dt><dd id="r-email">—</dd></div>
+        <div><dt>Ships to</dt><dd id="r-addr">—</dd></div>
+        <div><dt>Delivery</dt><dd>Ships November</dd></div>
+        <div><dt>Payment</dt><dd>No payment now</dd></div>
+      </dl>
+      <label class="consent"><input type="checkbox" id="consent"> <span>I agree to the <a href="#privacy">privacy policy</a> and to receive a single email about my pre-order.</span></label>
+    </section>
+  </div>
+
+  <div class="summary">
+    <div class="thumb" aria-hidden="true">
+      <svg class="phones" id="thumb" viewBox="0 0 400 320" style="--finish:#1b1a1e">
+        <path class="band" d="M70 200 C70 50 330 50 330 200"/>
+        <ellipse class="pad" cx="72" cy="218" rx="56" ry="68"/>
+        <ellipse class="pad" cx="328" cy="218" rx="56" ry="68"/>
+        <rect class="shell" x="30" y="166" width="84" height="104" rx="38"/>
+        <rect class="shell" x="286" y="166" width="84" height="104" rx="38"/>
+      </svg>
+    </div>
+    <div class="sum-text">
+      <b id="s-name">Aura One — Obsidian</b>
+      <span class="mono">Ships November · No payment now</span>
+    </div>
+    <div class="price">$549</div>
+  </div>
+
+  <footer class="foot">
+    <button class="btn btn-ghost" id="back">Back</button>
+    <button class="btn btn-gold" id="next">Continue</button>
+  </footer>
+</aside>
+
+<div class="toast" id="toast" role="status">Mockup only — no order was placed</div>
+<span class="badge">MOCKUP — not implemented</span>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  let step = 1, finish = { name: 'Obsidian', hex: '#1b1a1e' };
+  const sections = [...document.querySelectorAll('.step')];
+  const stepEls = [...document.querySelectorAll('#steps li')];
+  const next = $('next'), back = $('back'), consent = $('consent');
+
+  const setFinish = (name, hex) => {
+    finish = { name, hex };
+    $('thumb').style.setProperty('--finish', hex);
+    $('s-name').textContent = 'Aura One — ' + name;
+    $('r-finish').textContent = name;
+  };
+  document.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.opt').forEach(x => x.setAttribute('aria-checked', String(x === b)));
+    setFinish(b.dataset.name, b.dataset.hex);
+  }));
+
+  const render = () => {
+    sections.forEach(s => s.classList.toggle('on', Number(s.dataset.step) === step));
+    stepEls.forEach((li, i) => li.dataset.state = i + 1 < step ? 'done' : i + 1 === step ? 'active' : 'todo');
+    stepEls.forEach((li, i) => li.toggleAttribute('aria-current', false));
+    stepEls[step - 1].setAttribute('aria-current', 'step');
+    back.disabled = step === 1;
+    back.style.opacity = step === 1 ? '.4' : '1';
+    next.textContent = step === 3 ? 'Place pre-order' : 'Continue';
+    next.disabled = step === 3 && !consent.checked;
+  };
+
+  next.addEventListener('click', () => {
+    if (step === 2) {
+      const form = $('details');
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      $('r-name').textContent = $('fn').value || '—';
+      $('r-email').textContent = $('em').value || '—';
+      $('r-addr').textContent = $('ad').value || '—';
+    }
+    if (step < 3) { step++; render(); return; }
+    const t = $('toast'); t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 2200);
+  });
+  back.addEventListener('click', () => { if (step > 1) { step--; render(); } });
+  consent.addEventListener('change', render);
+  render();
+})();
+</script>
+</body>
+</html>

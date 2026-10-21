@@ -1,0 +1,87 @@
+{
+  "measuredAt": "2026-10-21T17:06:44.334Z",
+  "server": "next start, http://localhost:3456",
+  "note": "curl -sI, one request per URL. Absent = header not returned.",
+  "results": {
+    "/": {
+      "status": "200",
+      "present": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-frame-options": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "cacheControl": null,
+      "contentType": null,
+      "contentLength": null,
+      "poweredBy": null
+    },
+    "/privacy-policy": {
+      "status": "200",
+      "present": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-frame-options": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "cacheControl": null,
+      "contentType": null,
+      "contentLength": null,
+      "poweredBy": null
+    },
+    "/robots.txt": {
+      "status": "200",
+      "present": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-frame-options": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "cacheControl": null,
+      "contentType": null,
+      "contentLength": null,
+      "poweredBy": null
+    },
+    "/assets/models/aura-one.glb": {
+      "status": "200",
+      "present": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-frame-options": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "cacheControl": null,
+      "contentType": null,
+      "contentLength": null,
+      "poweredBy": null
+    },
+    "/_next/static/chunks/310vm2bl3xxpt.js": {
+      "status": "200",
+      "present": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-frame-options": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "cacheControl": null,
+      "contentType": null,
+      "contentLength": null,
+      "poweredBy": null
+    }
+  },
+  "summary": {
+    "anySecurityHeaderPresent": false,
+    "poweredByHeader": "absent (next.config poweredByHeader: false)"
+  },
+  "nextConfigHeadersFunction": "none in next.config.ts; proxy.ts sets no headers"
+}

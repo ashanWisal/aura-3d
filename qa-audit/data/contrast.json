@@ -1,0 +1,176 @@
+{
+  "method": "WCAG 2.x relative luminance; alpha blended in sRGB over the stated background before measuring. Thresholds: AA normal 4.5, AA large 3.0, AAA normal 7.0.",
+  "sanity": {
+    "cream_on_bg_pure": 15.79,
+    "white_on_black_check": 21
+  },
+  "rows": [
+    {
+      "label": "cream #ece5d8 @ alpha 1 over #0b0a09",
+      "fgResolved": "rgb(236,229,216)",
+      "ratio": 15.79,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.85 over #0b0a09",
+      "fgResolved": "rgb(202,196,185)",
+      "ratio": 11.41,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.75 over #0b0a09",
+      "fgResolved": "rgb(180,174,164)",
+      "ratio": 8.98,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.7 over #0b0a09",
+      "fgResolved": "rgb(169,163,154)",
+      "ratio": 7.91,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.6 over #0b0a09",
+      "fgResolved": "rgb(146,141,133)",
+      "ratio": 6,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.55 over #0b0a09",
+      "fgResolved": "rgb(135,130,123)",
+      "ratio": 5.19,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.5 over #0b0a09",
+      "fgResolved": "rgb(124,120,113)",
+      "ratio": 4.5,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.05 over #0b0a09",
+      "fgResolved": "rgb(22,21,19)",
+      "ratio": 1.08,
+      "passAA_normal_4_5": false,
+      "passAA_large_3": false,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "gold #c9a35b on #0b0a09",
+      "ratio": 8.36,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "#0b0a09 on gold #c9a35b (button text)",
+      "ratio": 8.36,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 1 over surface #151311",
+      "fgResolved": "rgb(236,229,216)",
+      "ratio": 14.8,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.85 over surface #151311",
+      "fgResolved": "rgb(204,198,186)",
+      "ratio": 10.9,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.75 over surface #151311",
+      "fgResolved": "rgb(182,177,166)",
+      "ratio": 8.67,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.7 over surface #151311",
+      "fgResolved": "rgb(172,166,156)",
+      "ratio": 7.67,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": true
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.6 over surface #151311",
+      "fgResolved": "rgb(150,145,136)",
+      "ratio": 5.92,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.55 over surface #151311",
+      "fgResolved": "rgb(139,135,126)",
+      "ratio": 5.18,
+      "passAA_normal_4_5": true,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.5 over surface #151311",
+      "fgResolved": "rgb(129,124,117)",
+      "ratio": 4.48,
+      "passAA_normal_4_5": false,
+      "passAA_large_3": true,
+      "passAAA_normal_7": false
+    },
+    {
+      "label": "cream #ece5d8 @ alpha 0.05 over surface #151311",
+      "fgResolved": "rgb(32,30,27)",
+      "ratio": 1.11,
+      "passAA_normal_4_5": false,
+      "passAA_large_3": false,
+      "passAAA_normal_7": false
+    }
+  ],
+  "tokens": {
+    "source": "src/app/globals.css :root tier 1/2 (desktop values; portrait/mobile overrides listed separately)",
+    "desktop": {
+      "--type-giant": "var(--raw-type-giant) = 9rem",
+      "--type-display": "var(--raw-type-display) = 5.5rem",
+      "--type-body": "var(--raw-type-body) = 1.25rem",
+      "--type-label": "var(--raw-type-label) = 0.875rem",
+      "--type-meta": "var(--raw-type-meta) = 0.75rem"
+    },
+    "portrait_max_1024_or_768": {
+      "--type-giant": "7rem",
+      "--type-display": "4.5rem",
+      "--type-body": "1.5rem",
+      "--type-label": "1rem",
+      "--type-meta": "0.875rem"
+    },
+    "phone_max_640": {
+      "--type-giant": "4.5rem",
+      "--type-display": "2.75rem",
+      "--type-body": "1.0625rem",
+      "--type-label": "0.8125rem",
+      "--type-meta": "0.6875rem"
+    }
+  },
+  "note_exact": "Rounded ratios in rows are 2dp; at alpha 0.5 over #0b0a09 the exact ratio is 4.50461 (passes 4.5); over #151311 it is 4.47730 (fails AA normal 4.5, passes AA large 3.0)."
+}
